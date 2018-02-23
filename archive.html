@@ -18,7 +18,7 @@ permalink: /archive/
 
 	{% endunless %}
 
-		<div class="archivepost"><i class="fa fa-dot-circle-o" aria-hidden="true"></i> <a href="{{ post.url }}"><span class="postTitle">{{ post.title }}</span></a> <span class="archivepostdate pull-right">{{ post.date | date: "%d %b" }}</span></div>
+		<div class="archivepost"><a href="{{ post.url }}"><span class="postTitle">{{ post.title }}</span></a> <span class="archivepostdate pull-right">{{ post.date | date: "%d %b" }}</span></div>
 
 	{% endfor %}
 
