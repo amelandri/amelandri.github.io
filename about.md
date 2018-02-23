@@ -4,7 +4,7 @@ title: About
 ---
 
 My name is Alessandro Melandri, I'm an italian web developer, technical project manager and former [IBM WebSphere Commerce specialist][tecla].  
-In my spare time I'm studying iOS development and I'm a [wannabe][flickr] [photographer][500px].
+In my spare time I'm a wannabe guitar player.
 
 You can follow me on [Twitter] and [GitHub].
 
