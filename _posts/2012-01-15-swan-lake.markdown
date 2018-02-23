@@ -1,0 +1,14 @@
+---
+layout: post
+title: "Swan Lake"
+date: 2012-01-15 22:00
+comments: false
+tags: 
+- Photography
+---
+
+<a href="http://500px.com/photo/4369024"><img src="http://pcdn.500px.net/4369024/2fa0211292e588a2cbfeee42f5bf41e56b0e53c3/4.jpg" alt="Through the courtain by Alessandro Melandri (amelandri)) on 500px.com" class="img-responsive" ></a>
+
+The Swan Lake performed by [Sofia Ballet][sofiaballet], end of the show. _Teato Alighieri, Ravenna, Italy_.
+
+[sofiaballet]: http://www.sofiaballet.com/

@@ -1,0 +1,32 @@
+name: Alessandro Melandri
+author: Alessandro Melandri
+url: http://melandri.net
+staticurl: http://melandri.net/static/
+
+title: Alessandro Melandri
+
+# ------------------------------------------
+# General settings
+
+destination: /srv/www/melandri.net/public_html
+
+highliter: true
+exclude: [readme.md]
+encoding: UTF-8
+
+# ------------------------------------------
+# Post settings
+
+permalink: :title/
+
+paginate: 10
+paginate_path: "page/:num"
+
+gems: [jekyll-paginate, jekyll-sitemap]
+
+# ------------------------------------------
+# Misc settings
+
+twitter_user: AleMelandri
+copyright: Copyright &copy; 2009-2016 Alessandro Melandri
+copyright_text: Copyright (c) 2009-2016 Alessandro Melandri

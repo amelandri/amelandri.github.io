@@ -1,0 +1,10 @@
+---
+layout: post
+title: "Winter"
+date: 2013-01-28T23:28:05+01:00
+comments: false
+external-url: 
+tags: Photography
+---
+
+<a href="http://500px.com/photo/21851835"><img src="http://pcdn.500px.net/21851835/ad65612eeef7f87f21f71481e2c77eb71be0d5f7/4.jpg" alt="Frozen by Alessandro Melandri (amelandri)) on 500px.com"  class="img-responsive"></a>

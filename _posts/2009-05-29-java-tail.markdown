@@ -1,0 +1,70 @@
+---
+author: amelandri
+date: '2009-05-29 22:18:35'
+layout: post
+title: Java tail
+description: A java implementation of the Unix tail command.
+tags: [Tech,Java]
+---
+
+A java implementation of the Unix tail command. This is a small customization of the [java tail class][1] created by [Luigi Viggiano][2]. I've just added
+some controls and added the update time parameter.
+
+{% highlight java %}
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
+ 
+/**
+ * Java implementation of the Unix tail command
+ * 
+ * @param args[0] File name
+ * @param args[1] Update time (seconds). Optional. Default value is 1 second
+ * 
+ * @author Luigi Viggiano (original author) http://it.newinstance.it/2005/11/19/listening-changes-on-a-text-file-unix-tail-implementation-with-java/
+ * @author Alessandro Melandri (modified by)
+ * */
+public class Tail {
+ 
+  static long sleepTime = 1000;
+ 
+  public static void main(String[] args) throws IOException {
+ 
+    if (args.length > 0){
+ 
+      if (args.length > 1)
+        sleepTime = Long.parseLong(args[1]) * 1000;
+ 
+      BufferedReader input = new BufferedReader(new FileReader(args[0]));
+      String currentLine = null;
+ 
+      while (true) {
+ 
+        if ((currentLine = input.readLine()) != null) {
+          System.out.println(currentLine);
+          continue;
+        }
+ 
+        try {
+          Thread.sleep(sleepTime);
+        } catch (InterruptedException e) {
+          Thread.currentThread().interrupt();
+          break;
+        }
+ 
+      }
+      input.close();
+ 
+    } else {
+      System.out.println("Missing parameter!\nUsage: java JavaTail fileName [updateTime (Seconds. default to 1 second)]");
+    }
+  }
+}
+{% endhighlight %}
+
+This is also a Gist. [Check it out][3]!
+
+[1]: http://it.newinstance.it/2005/11/19/listening-changes-on-a-text-file-unix-tail-implementation-with-java/ (Java Tail Class)
+[2]: http://it.newinstance.it (Luigi Viggiano Blog)
+[3]: https://gist.github.com/1376896
+
