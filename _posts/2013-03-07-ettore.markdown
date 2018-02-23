@@ -1,9 +1,0 @@
----
-layout: post
-title: "Ettore"
-date: 2013-03-07T14:43:52+01:00
-comments: false
-external-url: 
-tags: 
----
-<a href="http://500px.com/photo/27640737"><img src="http://pcdn.500px.net/27640737/68666e8b349bef0d3980fca7384066bb7bad2ed3/4.jpg" alt="Ettore by Alessandro Melandri (amelandri)) on 500px.com" class="img-responsive" /></a>
