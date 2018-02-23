@@ -8,7 +8,7 @@ title: Alessandro Melandri
 # ------------------------------------------
 # General settings
 
-destination: /srv/www/melandri.net/public_html
+destination: _site
 
 highliter: true
 exclude: [readme.md]
