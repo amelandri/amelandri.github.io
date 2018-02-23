@@ -96,7 +96,7 @@ h1, h2, h3, h4, h5, h6 {
   padding-top:    1rem;
   padding-bottom: 1rem;
   margin-bottom: 3rem;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px dotted #e1e1e1;
 }
 .masthead-title {
   margin-top: 0;
@@ -104,9 +104,6 @@ h1, h2, h3, h4, h5, h6 {
   color: #505050;
   font-size: 1.5rem;
   font-family: 'Open Sans', Helvetica, sans-serif
-}
-.masthead-title a {
-  color: #c34040;
 }
 .masthead-title a:hover{
   text-decoration: none;
@@ -315,7 +312,6 @@ a.sidebar-nav-item:focus {
 .post {
   margin-bottom: 4.5em;
   padding-bottom: 4em;
-  border-bottom: 1px dotted #e1e1e1;
 }
 
 /* Blog post or page title */
@@ -344,6 +340,7 @@ a.sidebar-nav-item:focus {
 .page-title,
 .post-title {
   margin-top: 0;
+  font-weight: bold;
 }
 
 .page-title{
