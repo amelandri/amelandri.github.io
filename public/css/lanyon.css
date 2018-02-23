@@ -621,3 +621,10 @@ a.pagination-item:hover {
   border-radius: 10px 0;
 }
 
+/* Copyright footer */
+
+.contentfooter{
+  padding-bottom: 40px;
+  font-size: 0.8em;
+  color: #888888;
+}

@@ -1,6 +1,6 @@
 name: Alessandro Melandri
 author: Alessandro Melandri
-url: http://melandri.net
+url: http://alessandro.melandri.net
 staticurl: http://melandri.net/static/
 
 title: Alessandro Melandri
@@ -28,5 +28,5 @@ gems: [jekyll-paginate, jekyll-sitemap]
 # Misc settings
 
 twitter_user: AleMelandri
-copyright: Copyright &copy; 2009-2016 Alessandro Melandri
-copyright_text: Copyright (c) 2009-2016 Alessandro Melandri
+copyright: Copyright &copy; 2009-2018 Alessandro Melandri
+copyright_text: Copyright (c) 2009-2018 Alessandro Melandri
