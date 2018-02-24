@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About
+---
 
 Hi! I'm an italian web developer, technical project manager and former [IBM WebSphere Commerce specialist][tecla].  
 In my spare time I'm a wannabe guitar player.
