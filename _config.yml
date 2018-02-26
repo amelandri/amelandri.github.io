@@ -25,6 +25,10 @@ paginate_path: "page/:num"
 gems: [jekyll-paginate, jekyll-sitemap]
 
 # ------------------------------------------
+# Collections
+
+
+# ------------------------------------------
 # Misc settings
 
 twitter_user: AleMelandri
