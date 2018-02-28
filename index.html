@@ -15,7 +15,7 @@ title: Home
 		<h1 class="post-title external-url"><a href="{{ post.external-url }}" target="_blank">{{ post.title }} <i class="fas fa-external-link-square-alt"></i></a></h1>
 	{% endif %}
 
-    <span class="post-date">{{ post.date | date_to_string }}</span>
+    <span class="post-date">{{ post.date | date_to_string }} </span>
 
 	{% if post.content contains '<!--more-->' %}
 		{{ post.content | split:'<!--more-->' | first }}
