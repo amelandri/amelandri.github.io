@@ -166,14 +166,14 @@ pre {
   display: block;
   margin-top: 0;
   margin-bottom: 1rem;
-  padding: 1rem;
-  font-size: .8rem;
+  padding: 0.4rem 0.65rem;
+  font-size: .7rem;
   line-height: 1.4;
   white-space: pre;
   white-space: pre-wrap;
   word-break: break-all;
   word-wrap: break-word;
-  background-color: #f5f2ee;
+  background-color: #f6f6f6;
   border-radius: 4px;
 }
 pre code {
