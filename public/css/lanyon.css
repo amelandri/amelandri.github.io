@@ -181,7 +181,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .sidebar-item a{
-  color: #268bd2;
+  color: #ec3d1f;
 }
 
 .sidebar-item svg{
@@ -329,7 +329,7 @@ a.sidebar-nav-item:focus {
 }
 
 .singlepost{
-  margin-bottom: 2em !important;
+  margin-bottom: 4em !important;
 }
 
 /* Blog post or page title */
@@ -634,5 +634,7 @@ a.pagination-item:hover {
 .contentfooter{
   padding-bottom: 40px;
   font-size: 0.8em;
-  color: #888888;
+  color: #b5b5b5;
+  border-top: 1px solid #e3e3e3;
+  padding-top: 4px;
 }
