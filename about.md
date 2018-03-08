@@ -12,9 +12,7 @@ You can follow me on [Twitter] and [GitHub].
 
 ## About this site
 
-This site is made of pure HTML, proudly powered by [Jekyll], and hosted on [Linode]. *This is a referral link, if you signup for a [Linode] account you don't get any discount but I'll get a 20$ bonus.*
-
-[Here][WhyOctopress]'s a [detailed explanation][WhyOctopress] about this choice.
+This site is made of pure HTML, proudly powered by [Jekyll], and hosted on GitHub.
 
 ## Copyright
 
@@ -36,9 +34,6 @@ This means that:
 [ccm]: http://creativecommons.org/licenses/by-nc-sa/3.0/
 [tecla]: http://ecommerce.tecla.it
 [flickr]: http://www.flickr.com/photos/melandri
-[500px]: http://500px.com/amelandri
 [Twitter]: http://twitter.com/alemelandri
 [GitHub]: http://github.com/amelandri
-[Linode]: http://www.linode.com/?r=ce81128e2ab198e1d3b756a51b3773659eee245d
 [Jekyll]: http://www.jekyllrb.com
-[WhyOctopress]: /2012/01/08/goodbye-wordpress/
