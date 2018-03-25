@@ -639,3 +639,42 @@ a.pagination-item:hover {
   border-top: 1px solid #e3e3e3;
   padding-top: 4px;
 }
+
+
+/* Search form */
+
+div.headSearch{
+  float: right;
+  margin-top: -35px;
+}
+
+div.headSearch input{
+  border: 1px solid #e1e1e1;
+  border-radius: 3px;
+  padding: 4px 4px;
+  font-size: 0.7rem;
+  color:#8f8f8f;
+}
+
+
+div.headSearch button{
+border: 0;
+background: #ffffff;
+color:#8f8f8f;
+font-size: 0.8rem;
+cursor: pointer;
+}
+
+.searchResultItem{
+  color: #d28445;
+  font-style: italic;
+}
+
+#search-results{
+  list-style: none;
+  padding: 0;
+}
+
+#search-results li {
+  margin-bottom: 3rem; 
+}
