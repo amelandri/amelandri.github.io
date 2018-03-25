@@ -644,8 +644,8 @@ a.pagination-item:hover {
 /* Search form */
 
 div.headSearch{
-  float: right;
-  margin-top: -35px;
+  margin-top: 10px;
+  text-align: center;
 }
 
 div.headSearch input{
@@ -654,7 +654,30 @@ div.headSearch input{
   padding: 4px 4px;
   font-size: 0.7rem;
   color:#8f8f8f;
+  width: 13.1rem;
 }
+
+@media (min-width: 770px) {
+
+  div.headSearch{
+    float: right;
+    margin-top: -35px;
+  }
+
+  div.headSearch input{
+    border: 1px solid #e1e1e1;
+    border-radius: 3px;
+    padding: 4px 4px;
+    font-size: 0.7rem;
+    color:#8f8f8f;
+    width: 9rem;
+  }
+
+}
+
+
+
+
 
 
 div.headSearch button{
