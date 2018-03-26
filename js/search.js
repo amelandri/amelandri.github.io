@@ -3,7 +3,7 @@ function displaySearchResults(results, store) {
   if (results.length) { // Are there any results?
     var appendString = '';
     
-    console.log('B');
+    console.log('B1');
     
     for (var i = 0; i < results.length; i++) { // Iterate over the results
       var item = store[results[i].ref];
@@ -15,7 +15,7 @@ function displaySearchResults(results, store) {
     
   } else {
     
-    console.log('C');
+    console.log('C1');
     
     $('#search-results').html('<li>No results found</li>');
   }
@@ -38,12 +38,14 @@ function getQueryVariable(variable) {
 $(document).ready(function () {
 
   var searchTerm = getQueryVariable('query');
+  
+  var results;
 
   console.log('searchTerm: -' + searchTerm + '-');
   
   if (searchTerm) {
 
-    console.log('A');
+    console.log('A1');
     
     $('#search-box').attr("value", searchTerm);
 	  $('.searchResultItem').text(searchTerm);
@@ -63,9 +65,10 @@ $(document).ready(function () {
       }
     });
     
-    var results = idx.search(searchTerm); // Get lunr to perform a search
-    displaySearchResults(results, window.store); // We'll write this in the next section
+    results = idx.search(searchTerm);
     
   }
+  
+  displaySearchResults(results, window.store);
 
 })
