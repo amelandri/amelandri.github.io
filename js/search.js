@@ -2,7 +2,9 @@ function displaySearchResults(results, store) {
 
   if (results.length) { // Are there any results?
     var appendString = '';
-
+    
+    console.log('B');
+    
     for (var i = 0; i < results.length; i++) { // Iterate over the results
       var item = store[results[i].ref];
       appendString += '<li><a href="' + item.url + '"><h3>' + item.title + '</h3></a>';
@@ -12,6 +14,9 @@ function displaySearchResults(results, store) {
     $('#search-results').html(appendString);
     
   } else {
+    
+    console.log('C');
+    
     $('#search-results').html('<li>No results found</li>');
   }
 }
@@ -34,8 +39,12 @@ $(document).ready(function () {
 
   var searchTerm = getQueryVariable('query');
 
+  console.log('searchTerm: -' + searchTerm + '-');
+  
   if (searchTerm) {
 
+    console.log('A');
+    
     $('#search-box').attr("value", searchTerm);
 	  $('.searchResultItem').text(searchTerm);
 
