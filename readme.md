@@ -1,6 +1,6 @@
 # Melandri.net
 
-This is the source code for my website generated using Jekyll.
+This is the source code for my website generated using [Jekyll](https://jekyllrb.com/), [Lanyon theme](http://lanyon.getpoole.com/) and [lunr.js](https://lunrjs.com/).
 
 ## License
 
