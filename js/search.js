@@ -1,5 +1,4 @@
 function displaySearchResults(results, store) {
-  var searchResults = document.getElementById('search-results');
 
   if (results.length) { // Are there any results?
     var appendString = '';
@@ -10,9 +9,10 @@ function displaySearchResults(results, store) {
       appendString += '<p>' + item.content.substring(0, 150) + '...</p></li>';
     }
 
-    searchResults.innerHTML = appendString;
+    $('#search-results').html(appendString);
+    
   } else {
-    searchResults.innerHTML = '<li>No results found</li>';
+    $('#search-results').html('<li>No results found</li>');
   }
 }
 
@@ -30,27 +30,20 @@ function getQueryVariable(variable) {
 }
 
 
-
-
 $(document).ready(function () {
 
   var searchTerm = getQueryVariable('query');
 
   if (searchTerm) {
 
-	document.getElementById('search-box').setAttribute("value", searchTerm);
-	$('.searchResultItem').text(searchTerm);
-
-    // Initalize lunr with the fields it will be searching on. I've given title
-    // a boost of 10 to indicate matches on this field are more important.
+    $('#search-box').attr("value", searchTerm);
+	  $('.searchResultItem').text(searchTerm);
 
     var idx = lunr(function () {
       this.field('id');
       this.field('title', {
         boost: 10
       });
-      this.field('author');
-      this.field('category');
       this.field('content');
       for (var key in window.store) {
         this.add({
@@ -58,13 +51,12 @@ $(document).ready(function () {
           'title': window.store[key].title,
           'content': window.store[key].content
         });
-
-
       }
     });
+    
+    var results = idx.search(searchTerm); // Get lunr to perform a search
+    displaySearchResults(results, window.store); // We'll write this in the next section
+    
   }
-
-  var results = idx.search(searchTerm); // Get lunr to perform a search
-  displaySearchResults(results, window.store); // We'll write this in the next section
 
 })
