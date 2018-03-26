@@ -3,8 +3,6 @@ function displaySearchResults(results, store) {
   if (results.length) {
     var appendString = '';
     
-    console.log('B2');
-    
     for (var i = 0; i < results.length; i++) { // Iterate over the results
       var item = store[results[i].ref];
       appendString += '<li><a href="' + item.url + '"><h3>' + item.title + '</h3></a>';
@@ -14,9 +12,6 @@ function displaySearchResults(results, store) {
     $('#search-results').html(appendString);
     
   } else {
-    
-    console.log('C1');
-    
     $('#search-results').html('<li>No results found</li>');
   }
 }
@@ -39,13 +34,7 @@ $(document).ready(function () {
 
   var searchTerm = getQueryVariable('query');
   
-  
-
-  console.log('searchTerm: -' + searchTerm + '-');
-  
   if (searchTerm) {
-
-    console.log('A1');
     
     $('#search-box').attr("value", searchTerm);
 	  $('.searchResultItem').text(searchTerm);
@@ -68,6 +57,9 @@ $(document).ready(function () {
     var results = idx.search(searchTerm);
     displaySearchResults(results, window.store);
     
+  } else {
+    
+    $('h1.page-title').html('Please insert a valid search term');  
   }
 
 })
