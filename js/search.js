@@ -1,9 +1,9 @@
 function displaySearchResults(results, store) {
 
-  if (results.length) { // Are there any results?
+  if (results.length) {
     var appendString = '';
     
-    console.log('B1');
+    console.log('B2');
     
     for (var i = 0; i < results.length; i++) { // Iterate over the results
       var item = store[results[i].ref];
@@ -39,7 +39,7 @@ $(document).ready(function () {
 
   var searchTerm = getQueryVariable('query');
   
-  var results;
+  
 
   console.log('searchTerm: -' + searchTerm + '-');
   
@@ -65,10 +65,9 @@ $(document).ready(function () {
       }
     });
     
-    results = idx.search(searchTerm);
+    var results = idx.search(searchTerm);
+    displaySearchResults(results, window.store);
     
   }
-  
-  displaySearchResults(results, window.store);
 
 })
