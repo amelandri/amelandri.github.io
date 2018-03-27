@@ -4,6 +4,15 @@ title: Archive
 permalink: /archive/
 ---
 
+<div class="searchform">
+  <form action="/search" method="get">
+    <input type="text" id="search-box" name="query">
+    <button type="submit" class="btn btn-success">
+      <i class="fas fa-search"></i>
+    </button>
+  </form>
+</div>
+
 <div class="archive">
 
 	{% for post in site.posts %}
