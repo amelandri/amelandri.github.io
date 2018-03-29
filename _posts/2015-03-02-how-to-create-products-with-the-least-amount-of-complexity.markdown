@@ -2,6 +2,7 @@
 layout: post
 title: "How to create products with the least amount of complexity"
 date: "2015-03-02"
+category: Links
 tags: [Tech]
 external-url: http://venturebeat.com/2015/02/21/getting-to-simple-how-to-create-products-with-the-least-amount-of-complexity/
 ---
