@@ -661,11 +661,11 @@ div.headSearch input{
 
   div.headSearch{
     float: right;
-    margin-top: -35px;
+    margin-top: -2px;
   }
 
   div.headSearch input{
-    border: 1px solid #e1e1e1;
+    border: 1px solid #ededed;
     border-radius: 3px;
     padding: 4px 4px;
     font-size: 0.7rem;
@@ -676,15 +676,11 @@ div.headSearch input{
 }
 
 
-
-
-
-
 div.headSearch button{
 border: 0;
 background: #ffffff;
-color:#8f8f8f;
-font-size: 0.8rem;
+color:#d5d5d5;
+font-size: 0.9rem;
 cursor: pointer;
 }
 
