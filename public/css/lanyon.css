@@ -713,6 +713,12 @@ cursor: pointer;
 color: #fff
 }
 
-.post-tag i{
+.postTag i{
   font-size: 0.9rem;
 }
+
+.postCategory{
+  padding-right: 1rem;
+}
+
+
