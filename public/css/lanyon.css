@@ -648,13 +648,17 @@ div.headSearch{
   text-align: center;
 }
 
-div.headSearch input{
-  border: 1px solid #e1e1e1;
-  border-radius: 3px;
-  padding: 4px 4px;
-  font-size: 0.7rem;
-  color:#8f8f8f;
-  width: 13.1rem;
+ div.headSearch input{
+    border: 1px solid #ededed;
+    border-radius: 3px;
+    padding: 4px 4px;
+    font-size: 0.7rem;
+    color:#8f8f8f;
+    width: 9rem;
+  }
+
+div.headSearch input:focus{
+  background: #f3f3f3; 
 }
 
 @media (min-width: 770px) {
@@ -664,14 +668,7 @@ div.headSearch input{
     margin-top: -2px;
   }
 
-  div.headSearch input{
-    border: 1px solid #ededed;
-    border-radius: 3px;
-    padding: 4px 4px;
-    font-size: 0.7rem;
-    color:#8f8f8f;
-    width: 9rem;
-  }
+ 
 
 }
 
