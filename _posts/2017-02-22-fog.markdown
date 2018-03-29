@@ -3,5 +3,6 @@ layout: post
 title: "Fog"
 date: "2017-02-22"
 post-type: "image"
+category: Photo
 ---
 ![FOG](/static/2017-02-22/fog.jpg)

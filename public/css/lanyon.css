@@ -613,6 +613,23 @@ a.pagination-item:hover {
 
 /* Archive page */
 
+ul.postList{
+  list-style:none;
+padding: 0;
+}
+
+ul.postList h3{
+ margin: 0 0 0.3rem 0;
+}
+
+ ul.postList li{
+        padding-bottom: 0.9rem;
+        margin-bottom: 0.5rem;
+        border-bottom: 1px dashed #ededed;
+        padding-left: 0.2rem;
+}
+
+
 .archivepost{
 	padding-bottom: 0.3rem;
 	margin-bottom: 0.3rem;
