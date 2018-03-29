@@ -663,6 +663,7 @@ ul.postList h3{
 div.headSearch{
   margin-top: 10px;
   text-align: center;
+  display: none
 }
 
  div.headSearch input{
@@ -681,11 +682,19 @@ div.headSearch input:focus{
 @media (min-width: 770px) {
 
   div.headSearch{
+  display: block;
     float: right;
     margin-top: -2px;
   }
 
- 
+  div.headSearch input{
+    border: 1px solid #ededed;
+    border-radius: 3px;
+    padding: 4px 4px;
+    font-size: 0.7rem;
+    color:#8f8f8f;
+    width: 9rem;
+  } 
 
 }
 
