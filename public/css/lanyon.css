@@ -730,13 +730,18 @@ cursor: pointer;
   -moz-transition: all 0.1s ease-in-out;
   transition: all 0.1s ease-in-out;
   font-size: 0.7rem;
-  color: #6a9fb5;
   padding: 0.1rem 0.5rem;
+  color: #a5a5a5;
+}
+
+.postTag svg{
+  height: 0.6rem;
 }
 
 .postTag:hover{
-  background: #6a9fb5;
-color: #fff
+  background: #268bd2;
+color: #fff;
+text-decoration: none;
 }
 
 .postTag i{
