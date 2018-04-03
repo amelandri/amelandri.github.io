@@ -3,9 +3,8 @@ author: amelandri
 date: '2009-09-14 11:11:46'
 layout: post
 title: Selective Javascript Loader 1.1
-tags:
-- Tech
-- WordPress
+tags: WordPress
+Category: Tech
 ---
 
 I've just update the [Selective Javascript Loader][1] plugin with some bugfixes and improvements:

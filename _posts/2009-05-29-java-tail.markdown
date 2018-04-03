@@ -4,7 +4,8 @@ date: '2009-05-29 22:18:35'
 layout: post
 title: Java tail
 description: A java implementation of the Unix tail command.
-tags: [Tech,Java]
+tags: [Java]
+Category: Tech
 ---
 
 A java implementation of the Unix tail command. This is a small customization of the [java tail class][1] created by [Luigi Viggiano][2]. I've just added

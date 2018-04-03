@@ -4,7 +4,8 @@ date: '2009-06-21 11:48:49'
 layout: post
 description: A simple bash script that zips a folder and sets the archive name to the current date
 title: Zipped folder backup
-tags: [Tech, Linux]
+tags: [Linux]
+Category: Tech
 ---
 
 A simple bash script that zips a folder and sets the archive name to the current date.

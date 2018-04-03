@@ -5,10 +5,8 @@ layout: post
 slug: add-a-category-filter-to-wordpress-search-form
 status: publish
 title: Add a category filter to WordPress search
-tags:
-- Tech
-- PHP
-- WordPress
+tags: [WordPress, PHP]
+Category: Tech
 ---
 
 WordPress has a simple function to build a search form for your blog and in this tutorial I'll show you how to add a category filter to it.

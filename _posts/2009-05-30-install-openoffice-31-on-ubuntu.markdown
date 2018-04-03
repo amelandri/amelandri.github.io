@@ -4,7 +4,8 @@ date: '2009-05-30 17:24:09'
 layout: post
 description: Tutorial containing the steps to install OpenOffice 3.1 on Ubuntu.
 title: Install OpenOffice 3.1 on Ubuntu
-tags: [Tech, Linux]
+tags: [Linux]
+Category: Tech
 ---
 
 These are the steps to install OpenOffice 3.1 on Ubuntu. First of all [download][1] OpenOffice 3.1 from the [official web site][2]. When you're done, follow these steps:

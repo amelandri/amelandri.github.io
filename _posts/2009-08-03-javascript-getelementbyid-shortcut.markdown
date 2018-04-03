@@ -3,9 +3,8 @@ author: amelandri
 date: '2009-08-03 23:28:41'
 layout: post
 title: Javascript getElementById() shortcut
-tags:
-- Tech
-- Javascript
+tags: Javascript
+Category: Tech
 ---
 
 Do you love the wonderful javascript dollar shortcut `$('myId')` but cannot use [jQuery][1] or [Prototype][2]? Don't worry, you can define your custom shortcut for the too long `document.getElementById()` function:

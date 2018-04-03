@@ -4,9 +4,8 @@ date: '2009-06-22 12:09:55'
 layout: post
 title: Remove leading zeroes in XSL
 description: A useful XSL template for removing leading zeros
-tags:
-- Tech
-- XML
+tags: XML
+Category: Tech
 ---
 
 A useful XSL template for removing leading zeros

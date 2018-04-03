@@ -3,10 +3,8 @@ author: amelandri
 date: '2009-08-09 11:37:37'
 layout: post
 title: 'Single post template based on category #2'
-tags:
-- Tech
-- PHP
-- WordPress
+tags: [PHP, WordPress]
+Category: Tech
 ---
 
 In my [previous post][1] I talked about a [Lorelle][2] blog [post][3] on creating single post templates for different tags.

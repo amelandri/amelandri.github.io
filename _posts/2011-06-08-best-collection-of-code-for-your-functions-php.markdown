@@ -3,10 +3,8 @@ author: amelandri
 date: '2011-06-08 15:50:20'
 layout: post
 title: Best Collection of Code for your functions.php
-tags:
-- Tech
-- Links
-- WordPress
+tags: WordPress
+Category: Tech
 ---
 
 [http://wordpress.stackexchange.com/questions/1567/best-collection-of-code-for-your-functions-php-file][1]

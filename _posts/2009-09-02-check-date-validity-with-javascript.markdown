@@ -3,9 +3,8 @@ author: amelandri
 date: '2009-09-02 22:16:29'
 layout: post
 title: Check date validity with Javascript
-tags:
-- Tech
-- Javascript
+tags: Javascript
+Category: Tech
 ---
 
 A simple JavaScript function to check date validity

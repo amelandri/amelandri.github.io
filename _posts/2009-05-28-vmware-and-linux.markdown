@@ -3,7 +3,8 @@ date: '2009-05-28 11:32:48'
 layout: post
 title: VMWare and Linux
 description: Resolve keys not working in VMWare on a Linux host
-tags: [Tech,Linux]
+tags: [Linux]
+Category: Tech
 ---
 
 If you install VMware on linux you may find that some keys (up/down keys, home key, etc...) don't work in the guest operating system. You need to create a config file inside the `.vmware` folder in your home directory and paste this text info the file:

@@ -3,9 +3,8 @@ author: amelandri
 date: '2009-07-03 11:17:49'
 layout: post
 title: Get location coordinates using Google Maps
-tags:
-- Tech
-- Javascript
+tags: Javascript
+Category: Tech
 ---
 
 

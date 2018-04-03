@@ -3,8 +3,7 @@ author: amelandri
 date: '2009-08-25 08:27:43'
 layout: post
 title: Speed up Firefox awesome bar
-tags:
-- Tech
+Category: Tech
 ---
 
 Using the new Firefox awesome bar could result in a frustrating experience, because the SQLite database that holds all the data used by Firefox can get heavily defragmented.

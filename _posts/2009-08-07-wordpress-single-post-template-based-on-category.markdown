@@ -3,10 +3,8 @@ author: amelandri
 date: '2009-08-07 17:28:06'
 layout: post
 title: 'Single post template based on category'
-tags:
-- Tech
-- PHP
-- WordPress
+tags: [PHP, WordPress]
+Category: Tech
 ---
 
 Today, while trying to customize the _single.php_ template for a specific category I found a pretty old article written by [Lorelle][1]:

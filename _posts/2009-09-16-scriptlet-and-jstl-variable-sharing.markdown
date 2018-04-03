@@ -3,9 +3,8 @@ author: amelandri
 date: '2009-09-16 18:15:23'
 layout: post
 title: Scriptlet and JSTL variable sharing
-tags:
-- Tech
-- Java
+tags: Java
+Category: Tech
 ---
 
 I know that mixing [scriplets][1] and [JSTL][2] in [JSP][3] is a bad practice, but sometimes you can't avoid it and every time I do it I can't remember how to share variables between scriplets and JSTL so this post is a sort of reminder for the future. Hope it can be useful for other forgetful persons like me :-)

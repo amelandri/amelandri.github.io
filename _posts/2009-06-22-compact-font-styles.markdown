@@ -4,7 +4,8 @@ date: '2009-06-22 13:45:52'
 layout: post
 title: Compact font styles
 description: How to compact CSS font styles definitions
-tags: [Tech,CSS]
+tags: [CSS]
+Category: Tech
 ---
 
 This is a simple tip that can help you reduce your style sheet size. Take a look at this CSS portion:

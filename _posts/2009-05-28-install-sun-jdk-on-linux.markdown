@@ -4,7 +4,8 @@ date: '2009-05-28 09:19:13'
 layout: post
 title: Install Sun JDK on Linux
 description: How to install SUN JDK on Linux (tested on Fedora 10 nd Ubuntu 9.04)
-tags: [Tech,Java,Linux]
+tags: [Java,Linux]
+Category: Tech
 ---
 
 I've tested this procedure on Fedora 10 and Ubuntu 9.04 but it should work on other distributions too.
