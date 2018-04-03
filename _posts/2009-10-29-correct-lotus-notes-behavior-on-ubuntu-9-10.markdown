@@ -4,7 +4,7 @@ date: '2009-10-29 14:14:15'
 layout: post
 title: Correct Lotus Notes behavior on Ubuntu 9.10
 tags: Linux
-Category: Tech
+category: Tech
 ---
 
 After upgrading my desktop to Karmic Koala I started having some problem with my Notes 8.5.1 installation with window not displaying contents. Doing a brief Google search I found [this thread][1] about a change made in libgtk that breaks Lotus Notes.

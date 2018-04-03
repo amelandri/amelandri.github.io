@@ -4,7 +4,7 @@ date: '2009-09-13 19:16:49'
 layout: post
 title: Selective Javascript Loader
 tags: WordPress
-Category: Tech
+category: Tech
 ---
 
 I've just released **[Selective Javascript Loader][1]** my first [WordPress][2] plugin. It's a very simple plugin that automatically loads different Javascript files based on the blog section that is being viewed (index, category, single post, page).

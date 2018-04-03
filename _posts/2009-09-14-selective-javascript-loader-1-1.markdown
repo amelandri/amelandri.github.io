@@ -4,7 +4,7 @@ date: '2009-09-14 11:11:46'
 layout: post
 title: Selective Javascript Loader 1.1
 tags: WordPress
-Category: Tech
+category: Tech
 ---
 
 I've just update the [Selective Javascript Loader][1] plugin with some bugfixes and improvements:

@@ -4,7 +4,7 @@ date: '2010-03-26 14:47:31'
 layout: post
 title: JTextFileParser 1.4
 tags: Java
-Category: Tech
+category: Tech
 ---
 
 I've just released a small update to [JTexFileParser][1] adding the ability to export text file data to XML. [**Check it out**][2] at [google code][2].

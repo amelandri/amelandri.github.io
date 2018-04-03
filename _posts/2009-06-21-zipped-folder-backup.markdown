@@ -5,7 +5,7 @@ layout: post
 description: A simple bash script that zips a folder and sets the archive name to the current date
 title: Zipped folder backup
 tags: [Linux]
-Category: Tech
+category: Tech
 ---
 
 A simple bash script that zips a folder and sets the archive name to the current date.

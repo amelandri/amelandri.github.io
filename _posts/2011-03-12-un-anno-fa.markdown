@@ -3,7 +3,7 @@ author: amelandri
 date: '2011-03-12 12:00:14'
 layout: post
 title: Un anno fa
-Category: Personal
+category: Personal
 ---
 
 <a href="http://www.flickr.com/photos/melandri/4429026967/" title="071 # March 12 - Nausicaa by Alessandro Melandri, on Flickr"><img src="http://farm5.staticflickr.com/4029/4429026967_87696e0ba7_b.jpg" alt="March 12 - Nausicaa"  class="img-responsive"></a>

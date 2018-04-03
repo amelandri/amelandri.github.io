@@ -4,7 +4,7 @@ layout: post
 title: Connect to MySql using Java
 description: A simple Java class useful to connect to a MySQL database
 tags: [Java,Sql,Database]
-Category: Tech
+category: Tech
 ---
 
 This is a simple class that I usually use to connect to a MySQL database. Obviously the right [MySQL JDBC driver][1] must be in your classpath.

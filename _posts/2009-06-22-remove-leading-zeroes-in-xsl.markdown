@@ -5,7 +5,7 @@ layout: post
 title: Remove leading zeroes in XSL
 description: A useful XSL template for removing leading zeros
 tags: XML
-Category: Tech
+category: Tech
 ---
 
 A useful XSL template for removing leading zeros

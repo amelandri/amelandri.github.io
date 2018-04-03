@@ -4,7 +4,7 @@ date: '2009-09-02 22:16:29'
 layout: post
 title: Check date validity with Javascript
 tags: Javascript
-Category: Tech
+category: Tech
 ---
 
 A simple JavaScript function to check date validity

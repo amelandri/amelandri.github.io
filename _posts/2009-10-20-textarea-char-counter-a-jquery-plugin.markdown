@@ -4,7 +4,7 @@ date: '2009-10-20 18:08:34'
 layout: post
 title: Textarea char counter, a jQuery plugin
 tags: Javascript
-Category: Tech
+category: Tech
 ---
 
 Some weeks ago I received a customer request to add a character counter to a textarea field and I made it using "classic" Javascript. Now that I'm learning [jQuery][1] and have some spare time, I tryed to transform my custom function to a jQuery plugin.

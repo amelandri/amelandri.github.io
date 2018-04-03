@@ -4,7 +4,7 @@ layout: post
 title: Get the WEB-INF folder path
 description: This is a simple example on how to get the WEB-INF directory path in a J2EE web application
 tags: [Java]
-Category: Tech
+category: Tech
 ---
 
 This is a simple example on how to get the WEB-INF directory path in a J2EE web application.

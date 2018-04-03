@@ -4,7 +4,7 @@ date: '2009-08-04 11:12:31'
 layout: post
 title: When Runtime.exec() won't - JavaWorld
 tags: [Java]
-Category: Links
+category: Links
 ---
 
 A well written article on [JavaWorld][1] that explains how to effectively use the [Runtime.exec()][2] method. It really saved me a lot of time.
