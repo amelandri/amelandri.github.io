@@ -4,7 +4,7 @@ title: "Living without human contact for 40 years"
 date: 2013-01-31T00:30:31+01:00
 comments: false
 external-url: http://www.smithsonianmag.com/history-archaeology/For-40-Years-This-Russian-Family-Was-Cut-Off-From-Human-Contact-Unaware-of-World-War-II-188843001.html
-tags: Linklog
+category: Links
 ---
 
 The incredible story of the meeting between a group of geologists and a family that lived for 40 years in the russian taiga without human contacts, even unaware of World Ward II.

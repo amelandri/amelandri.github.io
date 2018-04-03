@@ -2,8 +2,8 @@
 layout: post
 title: Custom Jekyll filter for tags
 description: A simple Jekyll filter that uses Bootstrap's label objects to display post tags
-external-url:
-tags: [Tech, Jekyll, Bootstrap]
+tags: Jekyll, Bootstrap
+category: Tech
 ---
 
 This is a simple [Jekyll] filter that I wrote in order to use Bootstrap's label objects to display post tags.  

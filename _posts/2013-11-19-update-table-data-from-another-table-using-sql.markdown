@@ -2,8 +2,8 @@
 layout: post
 title: Update table with data from another table using SQL
 description: How to update table with data from another table using SQL
-external-url:
-tags: [Tech, Sql]
+tags: Sql
+category: Tech
 ---
 
 A simple but useful SQL snippet that lets you update a table using data from another table

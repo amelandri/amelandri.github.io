@@ -2,6 +2,7 @@
 layout: post
 title: Acrobat Forms - Execute javascript on document open
 published: True
+category: Tech
 tags: [Acrobat, Form, Javascript]
 ---
 

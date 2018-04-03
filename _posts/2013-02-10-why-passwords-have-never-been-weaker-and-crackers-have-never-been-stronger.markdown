@@ -2,11 +2,8 @@
 layout: post
 title: "Why passwords have never been weaker and crackers have never been stronger"
 date: 2013-02-10T23:03:08+01:00
-comments: false
 external-url: http://arstechnica.com/security/2012/08/passwords-under-assault/
-tags: 
-- Linklog
-- Tech
+category: Links
 ---
 
 

@@ -2,7 +2,7 @@
 layout: post
 title: How to setup CrashPlan Cloud Backup on a Synology NAS
 published: True
-tags: [Tech]
+category: Links
 external-url: http://www.hanselman.com/blog/UPDATED2014HowToSetupCrashPlanCloudBackupOnASynologyNASRunningDSM50.aspx
 ---
 

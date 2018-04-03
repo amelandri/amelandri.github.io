@@ -2,8 +2,8 @@
 layout: post
 title: Custom notifications for a specific status change in Jira
 description: How to add a custom notification for a specific status change in Jira
-external-url:
-tags: [Tech, Jira, Atlassian]
+tags: [Jira, Atlassian]
+category: Tech
 ---
 
 The default [Jira] notification scheme sometimes might look like a spam bot, especially if you have a lot of users actively using it, so for one of our project we decided to create an empty notification scheme and add just one notification for a specific status change.

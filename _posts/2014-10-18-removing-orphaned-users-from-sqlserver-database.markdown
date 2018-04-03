@@ -3,6 +3,7 @@ layout: post
 title: "Removing orphaned users from a SQLServer database"
 date: 2014-10-18T13:40:31+01:00
 comments: false
+category: Tech
 tags: [database, sqlserver]
 ---
 
