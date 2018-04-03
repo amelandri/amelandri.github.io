@@ -40,7 +40,7 @@ Here we generate all the categories.
 </p>
 
 {% for ct in cats %}
-<h2 id="{{ ct | slugify }}"><i class="far fa-folder-open"></i> {{ ct }}</h2>
+<h2 id="{{ ct | slugify }}" class="archiveHeader"><i class="far fa-folder-open"></i> {{ ct }}</h2>
 <ul class="postList">
   {% for post in site.posts %}
   {% if post.category contains ct %}
@@ -59,7 +59,7 @@ Here we generate all the categories.
 </ul>
 {% endfor %}
 
-<h2 id="no-category"><i class="far fa-folder-open"></i> No Category</h2>
+<h2 id="no-category" class="archiveHeader"><i class="far fa-folder-open"></i> No Category</h2>
 <ul class="postList">
   {% for post in site.posts %}
   {% unless post.category %}
