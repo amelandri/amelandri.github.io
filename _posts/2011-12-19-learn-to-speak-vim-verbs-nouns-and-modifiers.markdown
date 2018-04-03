@@ -3,8 +3,7 @@ author: amelandri
 date: '2011-12-19 22:41:23'
 layout: post
 title: Learn to speak vim – verbs, nouns, and modifiers!
-tags:
-- Linklog
+category: Links
 external-url: http://yanpritzker.com/2011/12/16/learn-to-speak-vim-verbs-nouns-and-modifiers/
 ---
 

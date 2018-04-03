@@ -4,7 +4,7 @@ date: '2011-06-08 15:50:20'
 layout: post
 title: Best Collection of Code for your functions.php
 tags: WordPress
-category: Tech
+category: Links
 ---
 
 [http://wordpress.stackexchange.com/questions/1567/best-collection-of-code-for-your-functions-php-file][1]

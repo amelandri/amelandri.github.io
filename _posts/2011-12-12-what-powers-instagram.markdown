@@ -3,8 +3,7 @@ author: amelandri
 date: '2011-12-12 16:46:20'
 layout: post
 title: What Powers Instagram
-tags:
-- Linklog
+category: Links
 external-url: http://instagram-engineering.tumblr.com/post/13649370142/what-powers-instagram-hundreds-of-instances-dozens-of
 ---
 

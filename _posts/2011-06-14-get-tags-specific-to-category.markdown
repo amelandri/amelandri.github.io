@@ -3,7 +3,8 @@ author: amelandri
 date: '2011-06-14 16:42:01'
 layout: post
 title: WordPress - Get tags specific to a category
-tags: [Tech, Linklog, WordPress]
+tags: [WordPress]
+category: Links
 external-url: http://wordpress.org/support/topic/get-tags-specific-to-category#post-1240420
 ---
 

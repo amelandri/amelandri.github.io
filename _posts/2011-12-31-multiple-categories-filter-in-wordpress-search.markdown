@@ -3,10 +3,8 @@ author: amelandri
 date: '2011-12-31 13:26:24'
 layout: post
 title: Multiple tags filter in WordPress search
-tags:
-- Tech
-- PHP
-- WordPress
+tags: [PHP, WordPress]
+category: Tech
 ---
 
 More than two years ago I wrote the post [Add a category filter to WordPress search form][1] to explain how I added a category filter to the WordPress search form using WordPress API and some custom code and one of the most asked question was how to add a multiple tags filter to the search form, so here it is, a tutorial that covers all the steps to add multiple category filter to WordPress search.
