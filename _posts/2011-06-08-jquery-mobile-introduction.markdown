@@ -3,11 +3,8 @@ author: amelandri
 date: '2011-06-08 15:54:48'
 layout: post
 title: jQuery Mobile introduction
-tags:
-- Tech
-- Links
-- Javascript
-
+tags: Javascript
+category: Links
 ---
 
 [http://buildmobile.com/hello-jquery-mobile/][1]
