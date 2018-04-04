@@ -7,9 +7,17 @@ layout: default
   <span class="post-date">{{ page.date | date_to_string }}</span>
   {{ content }}
 
+
+ {% for tag in page.tags %}
+     <a class="postTag" href="/archive/tags/#{{ tag | slugify }}"><i class="fas fa-hashtag"></i> {{ tag }}</a>
+      {% endfor %}
+
+
   {% if page.external-url != nil %}
   <p class="postSource">Source: <a href="{{ page.external-url }}" target="_blank">{{ page.external-url }}</a></p>
   {% endif %}
+
+
 
 </div>
 
