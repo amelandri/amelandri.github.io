@@ -340,6 +340,10 @@ a.sidebar-nav-item:focus {
   color: #003333;
 }
 
+.Photo .post-title{
+	display: none;
+}
+
 .post-title a:hover{
   text-decoration: none;
   border-bottom: 1px dotted;
@@ -387,6 +391,10 @@ border-radius: 4px;
   padding-top: 0.5rem;
   font-family: 'Open Sans', Arial, Helvetica, sans-serif;
   text-transform: uppercase;
+}
+
+.Photo .post-date{
+	margin-bottom: 1rem;
 }
 
 /* Related posts */
