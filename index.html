@@ -5,14 +5,15 @@ title: Home
 
 <div class="posts">
   {% for post in paginator.posts %}
-  <div class="post">
 
 
 
 	{% if post.external-url == nil %}
+		<div class="post">
 		<h1 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h1>
 	{% else %}
-		<h1 class="post-title external-url"><a href="{{ post.external-url }}" target="_blank">{{ post.title }} <i class="fas fa-external-link-square-alt"></i></a></h1>
+		 <div class="post linklog">
+		<h1 class="post-title external-url"><a href="{{ post.external-url }}" target="_blank">{{ post.title }} <i class="fas fa-link"></i></a></h1>
 	{% endif %}
 
     <span class="post-date">{{ post.date | date_to_string }} </span>
