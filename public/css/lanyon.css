@@ -350,17 +350,13 @@ a.sidebar-nav-item:focus {
 }
 
 .linklog{
-background: #fff9e2;
-padding: 1rem 2rem;
--webkit-border-radius: 4px;
--moz-border-radius: 4px;
-border-radius: 4px;
 }
 
 .external-url a{
 	font-weight: normal;
 	opacity: 0.9;
-	font-size: 1rem;
+	font-style: italic;
+	font-size: 1.1rem;
 }
 
 .external-url a svg{
