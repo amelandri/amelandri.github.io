@@ -349,9 +349,6 @@ a.sidebar-nav-item:focus {
   border-bottom: 1px dotted;
 }
 
-.linklog{
-}
-
 .external-url a{
 	font-weight: normal;
 	opacity: 0.9;
@@ -766,7 +763,6 @@ text-decoration: none;
 .postCategory{
   padding-right: 1rem;
 }
-
 
 .archiveHeader{
   background: #ffcc00;
