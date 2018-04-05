@@ -770,3 +770,22 @@ text-decoration: none;
   margin-bottom: 3rem;
 }
 
+.arrow404 {
+	float: right;
+	height: 4rem;
+	width: 4rem !important;
+	margin-right: 4.5rem;
+	color: #ff4800;
+	margin-top: -2rem;
+}
+
+.icon404{
+  text-align: center;
+}
+
+.icon404 svg{
+  width: 10rem !important;
+  height: 10rem;
+  opacity: 0.1;
+  margin-top: 3rem;
+}
