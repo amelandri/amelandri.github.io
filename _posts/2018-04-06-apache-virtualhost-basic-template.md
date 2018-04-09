@@ -3,18 +3,16 @@ layout: post
 title: Apache virtual host basic template
 published: True
 category: Tech
-tags: [Acrobat, Form, Javascript]
+tags: [Apache]
 ---
 
-A simple template for Apache virtual hosts
+This is where I start when I have to configure an Apache server: a simple virtual host template with ssl rewrite.
 
-You need to add a new document level javascript with this code.
-
-{% highlight %}
+```
 <VirtualHost *:80>
 
     ServerName my.domain.com
-    ServerAlias my.domaini.com
+    ServerAlias my.domain.com
     
     RewriteEngine On
     RewriteCond %{HTTPS} =off
@@ -35,12 +33,12 @@ You need to add a new document level javascript with this code.
     SSLCertificateKeyFile /path/to/ssl/files/privatekey.pem
     SSLCertificateChainFile /path/to/ssl/files/IntermediateCA.crt
     
-    DirectoryIndex index.html index.php
+    DirectoryIndex index.html
     
-    ErrorLog "|/path/to/bin/rotatelogs.exe -l '/path/to/logs/my.domain.com-error_%Y-%m-%d.log' 86400"
-    CustomLog "|/path/to/bin/rotatelogs.exe -l '/path/to/logs/my.domain.com-access_%Y-%m-%d.log' 86400" common
+    ErrorLog "|/path/to/bin/rotatelogs -l '/path/error_%Y-%m-%d.log' 86400"
+    CustomLog "|/path/to/bin/rotatelogs -l '/path/access_%Y-%m-%d.log' 86400" common
     
 </VirtualHost>
-{% endhighlight %}
+```
 
 

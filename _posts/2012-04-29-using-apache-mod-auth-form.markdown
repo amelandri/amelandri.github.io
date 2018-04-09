@@ -3,11 +3,8 @@ layout: post
 title: "Using Apache mod_auth_form"
 date: 2012-04-29 14:11
 description: Using Apache mod_auth_form
-keywords: Apache, httpd, server, linux, mod_auth_form
 category: Tech
-tags: 
-- Tech
-- Linux
+tags: [Apache, Linux]
 ---
 
 Protecting a web site area using [Apache httpd][1] basic security is very simple but you have no control over the login alert window displayed by the browser, so when at work we saw that since version 2.3 Apache added a module that will let you use a an html form instead of the ugly alert we decided to upgrade to latest version and give it a try.
