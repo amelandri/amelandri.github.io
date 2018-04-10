@@ -123,9 +123,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 48em) {
-  .masthead-title {
-    text-align: center;
-  }
   .masthead-title small {
     display: none;
   }
@@ -770,15 +767,6 @@ text-decoration: none;
   margin-bottom: 3rem;
 }
 
-.arrow404 {
-	float: right;
-	height: 4rem;
-	width: 4rem !important;
-	margin-right: 4.5rem;
-	color: #ff4800;
-	margin-top: -2rem;
-}
-
 .icon404{
   text-align: center;
 }
@@ -788,4 +776,18 @@ text-decoration: none;
   height: 10rem;
   opacity: 0.1;
   margin-top: 3rem;
+}
+
+.headmenu{
+	font-size: 0.9rem;
+}
+
+.headmenu-item{
+	padding-right: 0.6rem;
+	color: #9eafc0;
+	text-transform:lowercase;
+}
+
+.headmenu .active{
+	color: #73818f;
 }
