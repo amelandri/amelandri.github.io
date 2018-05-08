@@ -481,69 +481,6 @@ ul.postList h3{
   padding-top: 1rem;
 }
 
-
-/* Search form */
-
-div.headSearch{
-  margin-top: 10px;
-  text-align: center;
-  display: none
-}
-
- div.headSearch input{
-    border: 1px solid #ededed;
-    border-radius: 3px;
-    padding: 4px 4px;
-    font-size: 0.7rem;
-    color:#8f8f8f;
-    width: 9rem;
-  }
-
-div.headSearch input:focus{
-  background: #f3f3f3; 
-}
-
-@media (min-width: 770px) {
-
-  div.headSearch{
-  display: block;
-    float: right;
-    margin-top: -2px;
-  }
-
-  div.headSearch input{
-    border: 1px solid #ededed;
-    border-radius: 3px;
-    padding: 4px 4px;
-    font-size: 0.7rem;
-    color:#8f8f8f;
-    width: 9rem;
-  } 
-
-}
-
-
-div.headSearch button{
-border: 0;
-background: #ffffff;
-color:#d5d5d5;
-font-size: 0.9rem;
-cursor: pointer;
-}
-
-.searchResultItem{
-  color: #d28445;
-}
-
-#search-results{
-  list-style: none;
-  padding: 0;
-}
-
-#search-results li {
-  margin-bottom: 3rem; 
-}
-
 .postTag{
   display: inline-block;
   background: #f2f2f2;
