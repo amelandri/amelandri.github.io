@@ -8,8 +8,6 @@ In my spare time I'm a wannabe guitar player.
 
 You can follow me on [Twitter] and [GitHub].
 
-## About this site
-
 This site is made of pure HTML, proudly powered by [Jekyll], and hosted on GitHub.
 
 ## Copyright
