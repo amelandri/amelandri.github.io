@@ -12,13 +12,7 @@ This site is made of pure HTML, proudly powered by [Jekyll], and hosted on GitHu
 
 ## Copyright
 
-### Photography Copyright
-
-Photographies cannot be copied, printed or reproduced without the express authorization of the author. If you want to use my photographies, please contact me.
-
-### Text Copyright
-
-All text articles on this site, except where otherwise noted, are licensed under a  
+All site content, except where otherwise noted, is licensed under a  
 [Creative Commons Attribution-Noncommercial-Share Alike 3.0 Unported License][ccm].
 
 This means that:
