@@ -484,7 +484,7 @@ ul.postList h3{
 .postTag{
   display: inline-block;
   background: #f2f2f2;
-  padding 0 0.5rem;
+  padding: 0 0.5rem;
   border-radius: 4px;
   font-family: "PT Sans",Helvetica,Arial,sans-serif;
   webkit-transition: all 0.1s ease-in-out;
@@ -501,8 +501,8 @@ ul.postList h3{
 
 .postTag:hover{
   background: #268bd2;
-color: #fff;
-text-decoration: none;
+  color: #fff;
+  text-decoration: none;
 }
 
 .postTag i{
@@ -514,8 +514,6 @@ text-decoration: none;
 }
 
 .archiveHeader{
-  background: #ffcc00;
-  padding: 0.5rem;
   margin-bottom: 3rem;
 }
 
