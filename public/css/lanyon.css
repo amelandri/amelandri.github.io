@@ -487,7 +487,7 @@ ul.postList h3{
   padding: 0 0.5rem;
   border-radius: 4px;
   font-family: "PT Sans",Helvetica,Arial,sans-serif;
-  webkit-transition: all 0.1s ease-in-out;
+  -webkit-transition: all 0.1s ease-in-out;
   -moz-transition: all 0.1s ease-in-out;
   transition: all 0.1s ease-in-out;
   font-size: 0.7rem;
