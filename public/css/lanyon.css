@@ -102,13 +102,13 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 0;
   color: #505050;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   font-family: 'Roboto Slab', serif;
-  font-weight: bold;
+  font-weight: normal;
   letter-spacing: 0.02rem;
 }
 .masthead-title a{
-  color: #d8381e;
+  color: #25aedb;
 }
 
 .masthead-title a:hover{
