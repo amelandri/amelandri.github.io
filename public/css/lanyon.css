@@ -96,7 +96,7 @@ h1, h2, h3, h4, h5, h6 {
   padding-top:    1rem;
   padding-bottom: 1rem;
   margin-bottom: 3rem;
-  border-bottom: 1px dotted #d3d3d3;
+  background: #002440;
 }
 .masthead-title {
   margin-top: 0;
@@ -108,7 +108,13 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 0.02rem;
 }
 .masthead-title a{
-  color: #000000;
+  color: #ffffff;
+}
+
+.masthead-title svg{
+  color: #fec000;
+  height: 32px;
+  margin-left: 20px;
 }
 
 .masthead-title a:hover{
