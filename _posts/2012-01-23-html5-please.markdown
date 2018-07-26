@@ -5,7 +5,6 @@ date: 2012-01-23 23:55
 comments: true
 tags: 
 - Linklog
-- Tech
 external-url: http://html5please.us
 ---
 

@@ -5,7 +5,6 @@ date: 2012-03-06 08:37
 description: Windows 8 A Giant Misstep Forward
 keywords: windows, 8 ,misstep
 tags: 
-- Tech
 - Linklog
 external-url: http://www.livingdigitally.net/2012/03/windows-8-a-giant-misstep-forward.html
 ---

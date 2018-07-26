@@ -5,7 +5,6 @@ date: 2012-02-21 16:37
 description: Finger-Friendly Design Ideal Mobile Touchscreen Target Sizes
 keywords: finger, touch, design, mobile, touchscreen
 tags: 
-- Tech
 - Linklog
 external-url: http://uxdesign.smashingmagazine.com/2012/02/21/finger-friendly-design-ideal-mobile-touchscreen-target-sizes/
 ---

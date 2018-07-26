@@ -5,7 +5,7 @@ date: 2012-02-15 21:30
 comments: true
 description: Setup Mailman and Postfix on a Debian 6 server
 keywords: mailman, postfix, linux, debian, linode, subdomain
-tags: [Tech,Linux,Mailman]
+tags: [Linux,Mailman]
 ---
 
 After moving my website to [Linode] I had to install and configure Mailman and Postfix to manage some mailing lists and since the process is quite tricky, I decided to write down all the steps hoping it can be useful to beginners like me.

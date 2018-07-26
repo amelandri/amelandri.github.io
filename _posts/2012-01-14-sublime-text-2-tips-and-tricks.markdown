@@ -4,7 +4,6 @@ title: "Sublime Text 2 Tips and Tricks"
 date: 2012-01-14 23:23
 comments: true
 tags: 
-- Tech
 - Linklog
 external-url: http://net.tutsplus.com/tutorials/tools-and-tips/sublime-text-2-tips-and-tricks/
 ---

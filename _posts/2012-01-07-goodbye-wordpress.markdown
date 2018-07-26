@@ -5,7 +5,7 @@ date: 2012-01-08 15:45
 published: true
 description: Migrating from WordPress to Octopress
 comments: true
-tags: [Tech, Octopress]
+tags: [Octopress]
 ---
 
 This is my first post published using [Octopress] after several years of [WordPress] and I'd like to share the reasons why I choosed to change blogging platform and switch to a statically generated site.

@@ -5,7 +5,6 @@ date: 2012-02-29 22:19
 description: Sublime Text Workflow That Beats Coda and Espresso
 keywords: sublimetext, sublime, text, editor, tutorial, workflow
 tags: 
-- Tech
 - Linklog
 external-url: http://tarantsov.com/blog/2012/02/sublime-text-workflow-that-beats-coda-and-espresso/
 ---

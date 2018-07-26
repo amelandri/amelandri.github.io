@@ -6,7 +6,6 @@ comments: true
 description: Javascript email validation. Client side or server side?
 keywords: javascript, email, validation, regular, expression, regexp
 tags: 
-- Tech
 - Javascript
 - Linklog
 external-url: http://stackoverflow.com/questions/46155/validate-email-address-in-javascript
