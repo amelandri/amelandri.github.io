@@ -59,6 +59,10 @@ h1, h2, h3, h4, h5, h6 {
  * regular page content.
  */
 
+ body{
+  border-top: 12px solid #fec000;
+ }
+
 .wrap {
   position: relative;
   width: 100%;
@@ -108,7 +112,7 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 0.02rem;
 }
 .masthead-title a{
-  color: #f05220;
+  color: #323232;
 }
 
 .masthead-title svg{
