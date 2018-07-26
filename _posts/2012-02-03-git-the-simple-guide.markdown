@@ -4,7 +4,7 @@ title: "git - the simple guide"
 date: 2012-02-03 10:40
 comments: true
 tags: 
-- Git
+- git
 - Linklog
 external-url: http://rogerdudler.github.com/git-guide/
 ---

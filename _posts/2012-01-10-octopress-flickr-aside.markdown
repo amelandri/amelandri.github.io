@@ -6,7 +6,6 @@ comments: true
 description: Add a Flickr aside to an Octopress blog using Flickr API
 keywords: octopress, flickr, aside
 tags: 
-- Tech
 - Octopress
 ---
 
