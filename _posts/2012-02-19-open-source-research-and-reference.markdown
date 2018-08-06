@@ -5,7 +5,6 @@ date: 2012-02-19 09:36
 description: Calomel.org Open Source Research and Reference
 keywords: open, source, reference, link
 tags: 
-- Links
 - Linux
 - Linklog
 external-url: https://calomel.org/

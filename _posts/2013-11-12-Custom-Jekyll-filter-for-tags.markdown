@@ -2,7 +2,9 @@
 layout: post
 title: Custom Jekyll filter for tags
 description: A simple Jekyll filter that uses Bootstrap's label objects to display post tags
-tags: Jekyll, Bootstrap
+tags: 
+- Jekyll
+- Bootstrap
 category: Tech
 ---
 
