@@ -3,7 +3,7 @@ layout: post
 title: "It's a customization"
 date: 2012-08-22 18:00
 description: A note about Darkstripes theme and the default Octopress theme
-keywords: 
+category: Tech
 tags: Octopress
 ---
 [Darkstripes][1] [Octopress][2] theme is getting some good feedback and I'm receiving a lof of message from people thanking me for **creating** this theme.

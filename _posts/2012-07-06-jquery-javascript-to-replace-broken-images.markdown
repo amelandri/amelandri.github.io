@@ -3,7 +3,7 @@ layout: post
 title: "jQuery/Javascript to replace broken images"
 date: 2012-07-06 23:22
 description: jQuery Javascript to replace broken images
-keywords: 
+category: Tech
 tags: 
 - Javascript
 - Linklog

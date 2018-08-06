@@ -5,6 +5,7 @@ date: 2012-07-23 21:41
 description: DarkStripes Octopress theme released
 keywords: octopress, theme, darkstripes, melandri.net, customize, customization
 tags: Octopress
+category: Tech
 ---
 
 Some months ago I published an article about the [Octopress theme customization][1] used on this site and since then I received a lot of feedback and customization requests. 

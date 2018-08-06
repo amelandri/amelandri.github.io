@@ -3,9 +3,8 @@ layout: post
 title: "Learning from competition"
 date: 2012-03-09 06:51
 description: Learning from competition
-keywords: 
+category: Links
 tags: 
-- Text
 - Linklog
 external-url: http://www.marco.org/2012/03/08/learning-from-competition
 ---

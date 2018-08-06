@@ -4,6 +4,7 @@ title: "Some Darkstripes theme improvements"
 date: 2012-08-06 21:46
 description: Some Darkstripes theme improvements
 keywords: Darkstripes, Octopress, Theme
+category: Tech
 tags: Octopress
 ---
 
