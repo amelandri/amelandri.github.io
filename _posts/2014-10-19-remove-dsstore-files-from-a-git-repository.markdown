@@ -4,7 +4,7 @@ title: "Remove .DS_Store Files From A Git Repository"
 date: "2014-10-19"
 comments: false
 external-url: http://stackoverflow.com/questions/107701/how-can-i-remove-ds-store-files-from-a-git-repository
-category: links
+category: Links
 tags: git
 ---
 
