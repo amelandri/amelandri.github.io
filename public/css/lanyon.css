@@ -555,3 +555,8 @@ ul.postList h3{
 p{
   letter-spacing: 0.01rem;
 }
+
+.flag{
+  float: right;
+  margin-top: 8px;
+}
