@@ -60,7 +60,7 @@ h1, h2, h3, h4, h5, h6 {
  */
 
  body{
-  border-top: 12px solid #c8dfcb;
+  border-top: 5px solid #c0d5e4;
  }
 
 .wrap {
@@ -552,7 +552,7 @@ ul.postList h3{
 }
 
 p{
-  letter-spacing: 0.01rem;
+  letter-spacing: 0.016 rem;
 }
 
 .flag{
