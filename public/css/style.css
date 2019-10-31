@@ -86,8 +86,8 @@ body {
 }
 
 .homelist{
-    font-family: arial;
-    font-size: 0.7rem;
+    font-family: arial, helvetica, verdana, sans-serif;
+    font-size: 0.75rem;
     margin-bottom: 1rem;
 }
 
