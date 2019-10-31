@@ -121,7 +121,16 @@ body {
     padding-left: 0.2rem;
 }
 
+.atomfeed{
+    font-size: 0.65rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    letter-spacing: 0.05rem;
+}
 
+.atomfeed a{
+    color: #FC7905;
+}
 
 
 
