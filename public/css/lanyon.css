@@ -100,18 +100,19 @@ h1, h2, h3, h4, h5, h6 {
   padding-top:    1rem;
   padding-bottom: 1rem;
   margin-bottom: 3rem;
-  border-bottom: 1px dotted #e1e1e1;
 }
 .masthead-title {
   margin-top: 0;
   margin-bottom: 0;
   color: #505050;
-  font-size: 1.8rem;
+  font-size: 1.2rem;
   font-weight: 900;
   letter-spacing: 0.02rem;
 }
 .masthead-title a{
-  color: #323232;
+  background: #323232;
+  color: #FFFFFF;
+  padding: 0.2rem 0.4rem;
 }
 
 .masthead-title svg{
@@ -538,12 +539,13 @@ ul.postList h3{
 }
 
 .headmenu{
-	font-size: 0.9rem;
+  font-size: 0.8rem;
+  margin-top: 0.5rem;
+  color: #9d9d9d;
 }
 
 .headmenu-item{
-	padding-right: 0.6rem;
-	color: #9eafc0;
+	color: #0645ad;
 	text-transform:lowercase;
 }
 
