@@ -580,15 +580,6 @@ a.pagination-item:hover {
     .archiveHeader {
         margin-bottom: 3rem;
     }
-    .icon404 {
-        text-align: center;
-    }
-    .icon404 svg {
-        width: 10rem !important;
-        height: 10rem;
-        opacity: 0.1;
-        margin-top: 3rem;
-    }
     .headmenu {
         font-size: 0.8rem;
         margin-top: 0.5rem;

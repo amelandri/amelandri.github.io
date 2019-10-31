@@ -9,7 +9,7 @@ layout: default
 
 
  {% for tag in page.tags %}
-     <a class="postTag" href="/archive/tags/#{{ tag | slugify }}"><i class="fas fa-hashtag"></i> {{ tag }}</a>
+     <a class="postTag" href="/archive/tags/#{{ tag | slugify }}"> # {{ tag }}</a>
       {% endfor %}
 
 
