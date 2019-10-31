@@ -40,7 +40,7 @@ The purpose of this snippet is to list all the tags you have in your site.
 =======================
 {% endcomment %}
 {% for tag in tags %}
-	<a href="#{{ tag | slugify }}" class="postTag"><i class="fas fa-hashtag"></i> {{ tag }}</a>
+	<a href="#{{ tag | slugify }}" class="postTag"># {{ tag }}</a>
 {% endfor %}
 
 {% comment %}
@@ -49,7 +49,7 @@ The purpose of this snippet is to list all your posts posted with a certain tag.
 =======================
 {% endcomment %}
 {% for tag in tags %}
-	<h2 id="{{ tag | slugify }}" class="archiveHeader"><i class="fas fa-hashtag"></i> {{ tag }}</h2>
+	<h2 id="{{ tag | slugify }}" class="archiveHeader"># {{ tag }}</h2>
 	<ul class="postList">
 	 {% for post in site.posts %}
 		 {% if post.tags contains tag %}
@@ -60,7 +60,7 @@ The purpose of this snippet is to list all your posts posted with a certain tag.
 		 </a>
                  </h3>
 		 {% for tag in post.tags %}
-			 <a class="postTag" href="/archive/tags/#{{ tag | slugify }}"><i class="fas fa-hashtag"></i> {{ tag }}</a>
+			 <a class="postTag" href="/archive/tags/#{{ tag | slugify }}"># {{ tag }}</a>
 		 {% endfor %}
 		 
 		 </li>

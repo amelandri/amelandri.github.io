@@ -1,0 +1,601 @@
+    * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+@media (min-width: 38em) {
+    html {
+        font-size: 20px;
+    }
+}
+
+body {
+    color: #2f2f2f;
+    background-color: #fff;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+
+/* No `:visited` state is required by default (browsers will use `a`) */
+
+a {
+    color: #268bd2;
+    text-decoration: none;
+}
+
+
+/* `:focus` is linked to `:hover` for basic accessibility */
+
+a:hover,
+a:focus {
+    text-decoration: underline;
+}
+
+
+/* Headings */
+
+h1,
+h3 {
+    margin-bottom: .5rem;
+    font-weight: bold;
+    line-height: 1.25;
+    color: #313131;
+    text-rendering: optimizeLegibility;
+    font-family: 'Roboto Slab', serif;
+    /*font-family: 'Open Sans', helvetica, sans-serif;*/
+}
+
+h1 {
+    font-size: 1.3rem;
+}
+
+h3 {
+    margin-top: 1.5rem;
+    font-size: 1.1rem;
+}
+
+
+/* Body text */
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+
+/* Lists */
+
+
+/* Misc */
+
+
+/* Code */
+
+code,
+pre {
+    font-family: Menlo, Monaco, "Courier New", monospace;
+}
+
+code {
+    padding: .25em .5em;
+    font-size: 85%;
+    color: #bf616a;
+    background-color: #f9f9f9;
+    border-radius: 3px;
+}
+
+pre {
+    display: block;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    padding: 0.4rem 0.65rem;
+    font-size: .7rem;
+    line-height: 1.4;
+    white-space: pre;
+    white-space: pre-wrap;
+    word-break: break-all;
+    word-wrap: break-word;
+    background-color: #f6f6f6;
+    border-radius: 4px;
+}
+
+pre code {
+    padding: 0;
+    font-size: 100%;
+    color: inherit;
+    background-color: transparent;
+}
+
+
+/* Pygments via Jekyll */
+
+.highlight {
+    margin-bottom: 1rem;
+    border-radius: 4px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.highlight pre {
+    margin-bottom: 0;
+}
+
+
+/* Gist via GitHub Pages */
+
+
+/* Quotes */
+
+blockquote {
+    padding: .5rem 1rem;
+    margin: .8rem 0;
+    color: #7a7a7a;
+    border-left: .25rem solid #e5e5e5;
+}
+
+blockquote p:last-child {
+    margin-bottom: 0;
+}
+
+@media (min-width: 30em) {
+    blockquote {
+        padding-right: 5rem;
+        padding-left: 1.25rem;
+    }
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    margin: 0 0 1rem;
+    border-radius: 5px;
+}
+
+
+/* Tables */
+
+.container {
+    max-width: 42rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*
+* Masthead
+*
+* Super small header above the content for site name and short description.
+*/
+
+.masthead {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-bottom: 3rem;
+}
+
+.masthead-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #505050;
+}
+
+
+/*
+* Posts and pages
+*
+* Each post is wrapped in `.post` and is used on default and post layouts. Each
+* page is wrapped in `.page` and is only used on the page layout.
+*/
+
+.post {
+    margin-bottom: 4em;
+}
+
+
+/* Blog post or page title */
+
+.post-title,
+.post-title a {
+    color: #303030;
+}
+
+.post-title {
+    margin-top: 0;
+}
+
+
+/* Meta data line below post title */
+
+.post-date {
+    display: block;
+    margin-top: -.5rem;
+    margin-bottom: 1rem;
+    color: #9a9a9a;
+}
+
+
+/* Related posts */
+
+
+/*
+* Pagination
+*
+* Super lightweight (HTML-wise) blog pagination. `span`s are provide for when
+* there are no more previous or next posts to show.
+*/
+
+.pagination {
+    overflow: hidden;
+    /* clearfix */
+    margin-left: -1rem;
+    margin-right: -1rem;
+    font-family: "PT Sans", Helvetica, Arial, sans-serif;
+    color: #ccc;
+    text-align: center;
+}
+
+
+/* Pagination items can be `span`s or `a`s */
+
+.pagination-item {
+    display: block;
+    padding: 1rem;
+    border: 1px solid #eee;
+}
+
+.pagination-item:first-child {
+    margin-bottom: -1px;
+}
+
+
+/* Only provide a hover state for linked pagination items */
+
+a.pagination-item:hover {
+    background-color: #f5f5f5;
+}
+
+@media (min-width: 30em) {
+    .pagination {
+        margin: 3rem 0;
+    }
+    .pagination-item {
+        float: left;
+        width: 50%;
+    }
+    .pagination-item:first-child {
+        margin-bottom: 0;
+        border-top-left-radius: 4px;
+        border-bottom-left-radius: 4px;
+    }
+    .pagination-item:last-child {
+        margin-left: -1px;
+        border-top-right-radius: 4px;
+        border-bottom-right-radius: 4px;
+    }
+    /*
+* Global resets
+*
+* Update the foundational and global aspects of the page.
+*/
+    /* Prevent scroll on narrow devices */
+    html,
+    body {
+        overflow-x: hidden;
+    }
+    html {
+        font-family: "PT Serif", Georgia, "Times New Roman", serif;
+    }
+    h1,
+    h3 {
+        /* font-family: "PT Sans", Helvetica, Arial, sans-serif;*/
+        font-weight: normal;
+        color: #313131;
+    }
+    /*
+* Wrapper
+*
+* The wrapper is used to position site content when the sidebar is toggled. We
+* use an outter wrap to position the sidebar without interferring with the
+* regular page content.
+*/
+    body {
+        border-top: 5px solid #c0d5e4;
+    }
+    .wrap {
+        position: relative;
+        width: 100%;
+    }
+    /*
+* Container
+*
+* Center the page content.
+*/
+    .container {
+        max-width: 28rem;
+    }
+    @media (min-width: 38em) {
+        .container {
+            max-width: 32rem;
+        }
+    }
+    @media (min-width: 56em) {
+        .container {
+            max-width: 42rem;
+        }
+    }
+    /*
+* Masthead
+*
+* Super small header above the content for site name and short description.
+*/
+    .masthead {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        margin-bottom: 3rem;
+    }
+    .masthead-title {
+        margin-top: 0;
+        margin-bottom: 0;
+        color: #505050;
+        font-size: 1.2rem;
+        font-weight: 900;
+        letter-spacing: 0.02rem;
+    }
+    .masthead-title a {
+        background: #323232;
+        color: #FFFFFF;
+        padding: 0.2rem 0.4rem;
+    }
+    .masthead-title a:hover {
+        text-decoration: none;
+    }
+    /*
+* Posts and pages
+*
+* Each post is wrapped in `.post` and is used on default and post layouts. Each
+* page is wrapped in `.page` and is only used on the page layout.
+*/
+    /*.page,*/
+    .post {
+        margin-bottom: 8em;
+    }
+    /* Blog post or page title */
+    .post-title,
+    .post-title a {
+        color: #003333;
+    }
+    .Photo .post-title {
+        display: none;
+    }
+    .post-title a:hover {
+        text-decoration: none;
+        border-bottom: 1px dotted;
+    }
+    .external-url a {
+        font-weight: normal;
+        opacity: 0.9;
+        font-style: italic;
+        font-size: 1.1rem;
+    }
+    .external-url a svg {
+        height: 0.77rem;
+        color: #ff7e00;
+        opacity: 0.7;
+        margin-left: 0.4rem;
+    }
+    .post-title {
+        margin-top: 0;
+        font-weight: bold;
+    }
+    /* Meta data line below post title */
+    .post-date {
+        display: block;
+        margin-top: -.5rem;
+        margin-bottom: 2rem;
+        color: #cccccc;
+        font-size: 0.55rem;
+        letter-spacing: 0.04rem;
+        padding-top: 0.5rem;
+        font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+        text-transform: uppercase;
+    }
+    .Photo .post-date {
+        margin-bottom: 1rem;
+    }
+    /* Related posts */
+    /*
+* Pagination
+*
+* Super lightweight (HTML-wise) blog pagination. `span`s are provide for when
+* there are no more previous or next posts to show.
+*/
+    .pagination {
+        overflow: hidden;
+        /* clearfix */
+        margin-left: -1rem;
+        margin-right: -1rem;
+        font-family: "PT Sans", Helvetica, Arial, sans-serif;
+        color: #ccc;
+        text-align: center;
+    }
+    /* Pagination items can be `span`s or `a`s */
+    .pagination-item {
+        display: block;
+        padding: 1rem;
+        border: 1px solid #eee;
+    }
+    .pagination-item:first-child {
+        margin-bottom: -1px;
+    }
+    /* Only provide a hover state for linked pagination items */
+    a.pagination-item:hover {
+        background-color: #f5f5f5;
+    }
+    @media (min-width: 30em) {
+        .pagination {
+            margin: 3rem 0;
+        }
+        .pagination-item {
+            float: left;
+            width: 50%;
+        }
+        .pagination-item:first-child {
+            margin-bottom: 0;
+            border-top-left-radius: 4px;
+            border-bottom-left-radius: 4px;
+        }
+        .pagination-item:last-child {
+            margin-left: -1px;
+            border-top-right-radius: 4px;
+            border-bottom-right-radius: 4px;
+        }
+    }
+    .contentfooter {
+        padding-bottom: 40px;
+        font-size: 0.8em;
+        color: #b5b5b5;
+        border-top: 1px solid #e3e3e3;
+        padding-top: 1rem;
+    }
+    .headmenu {
+        font-size: 0.8rem;
+        margin-top: 0.5rem;
+        color: #9d9d9d;
+    }
+    .headmenu-item {
+        color: #0645ad;
+        text-transform: lowercase;
+    }
+    p {
+        letter-spacing: 0.016 rem;
+    }
+    /*** uncss> filename: https://fonts.googleapis.com/css?family=Roboto+Slab:400,700|Roboto:400,900 ***/
+    /* Blog post or page title */
+    .page-title,
+    .post-title,
+    .post-title a {
+        color: #303030;
+    }
+    .page-title,
+    .post-title {
+        margin-top: 0;
+    }
+    /* Blog post or page title */
+    .page-title,
+    .post-title,
+    .post-title a {
+        color: #003333;
+    }
+    .page-title,
+    .post-title {
+        margin-top: 0;
+        font-weight: bold;
+    }
+    .page-title {
+        margin-bottom: 2em;
+    }
+    /* Headings */
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        margin-bottom: .5rem;
+        font-weight: bold;
+        line-height: 1.25;
+        color: #313131;
+        text-rendering: optimizeLegibility;
+        font-family: 'Roboto Slab', serif;
+        /*font-family: 'Open Sans', helvetica, sans-serif;*/
+    }
+    h1 {
+        font-size: 1.3rem;
+    }
+    h2 {
+        margin-top: 3rem;
+        font-size: 1.2rem;
+        margin-bottom: 1.3rem;
+    }
+    h3 {
+        margin-top: 1.5rem;
+        font-size: 1.1rem;
+    }
+    h4,
+    h5,
+    h6 {
+        margin-top: 1rem;
+        font-size: 1rem;
+    }
+    .contentfooter {
+        padding-bottom: 40px;
+        font-size: 0.8em;
+        color: #b5b5b5;
+        border-top: 1px solid #e3e3e3;
+        padding-top: 1rem;
+    }
+    .postTag {
+        display: inline-block;
+        background: #f2f2f2;
+        padding: 0 0.5rem;
+        border-radius: 4px;
+        font-family: "PT Sans", Helvetica, Arial, sans-serif;
+        -webkit-transition: all 0.1s ease-in-out;
+        -moz-transition: all 0.1s ease-in-out;
+        transition: all 0.1s ease-in-out;
+        font-size: 0.7rem;
+        padding: 0.1rem 0.5rem;
+        color: #a5a5a5;
+    }
+    .postTag svg {
+        height: 0.6rem;
+    }
+    .postTag:hover {
+        background: #268bd2;
+        color: #fff;
+        text-decoration: none;
+    }
+    .postTag i {
+        font-size: 0.9rem;
+    }
+    .postCategory {
+        padding-right: 1rem;
+    }
+    .archiveHeader {
+        margin-bottom: 3rem;
+    }
+    .headmenu {
+        font-size: 0.8rem;
+        margin-top: 0.5rem;
+        color: #9d9d9d;
+    }
+    .headmenu-item {
+        color: #0645ad;
+        text-transform: lowercase;
+    }
+    .headmenu .active {
+        color: #73818f;
+    }
+    p {
+        letter-spacing: 0.016 rem;
+    }
+    .flag {
+        float: right;
+        margin-top: 8px;
+    }
