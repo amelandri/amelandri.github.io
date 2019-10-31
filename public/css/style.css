@@ -184,9 +184,8 @@ img {
 */
 
 .masthead {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    margin-bottom: 3rem;
+    padding-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 .masthead-title {
@@ -344,11 +343,7 @@ a.pagination-item:hover {
 *
 * Super small header above the content for site name and short description.
 */
-    .masthead {
-        padding-top: 1rem;
-        padding-bottom: 1rem;
-        margin-bottom: 3rem;
-    }
+
     .masthead-title {
         margin-top: 0;
         margin-bottom: 0;
@@ -365,15 +360,10 @@ a.pagination-item:hover {
     .masthead-title a:hover {
         text-decoration: none;
     }
-    /*
-* Posts and pages
-*
-* Each post is wrapped in `.post` and is used on default and post layouts. Each
-* page is wrapped in `.page` and is only used on the page layout.
-*/
+  
     /*.page,*/
     .post {
-        margin-bottom: 8em;
+        margin-bottom: 4em;
     }
     /* Blog post or page title */
     .post-title,
@@ -387,18 +377,12 @@ a.pagination-item:hover {
         text-decoration: none;
         border-bottom: 1px dotted;
     }
-    .external-url a {
+    /*.external-url a {
         font-weight: normal;
         opacity: 0.9;
         font-style: italic;
         font-size: 1.1rem;
-    }
-    .external-url a svg {
-        height: 0.77rem;
-        color: #ff7e00;
-        opacity: 0.7;
-        margin-left: 0.4rem;
-    }
+    }*/
     .post-title {
         margin-top: 0;
         font-weight: bold;
@@ -563,16 +547,10 @@ a.pagination-item:hover {
         padding: 0.1rem 0.5rem;
         color: #a5a5a5;
     }
-    .postTag svg {
-        height: 0.6rem;
-    }
     .postTag:hover {
         background: #268bd2;
         color: #fff;
         text-decoration: none;
-    }
-    .postTag i {
-        font-size: 0.9rem;
     }
     .postCategory {
         padding-right: 1rem;
@@ -598,4 +576,41 @@ a.pagination-item:hover {
     .flag {
         float: right;
         margin-top: 8px;
+    }
+
+    .homeintro{
+        font-size: 0.9rem;
+        padding-bottom: 0.8rem;
+        margin-bottom: 0.8rem;
+        border-bottom: 1px dotted #d1d1d1
+    }
+
+    .homelist{
+        font-family: arial;
+        font-size: 0.7rem;
+        margin-bottom: 1rem;
+    }
+
+    .homelistitem{
+        padding: 0.1rem 0
+    }
+
+    .homelistitem a{
+        color: #333333;
+    }
+
+    .homelistdate{
+        font-family: courier;
+         color: #666666;
+         font-size: 0.75rem;
+    }
+
+    .homelistsep{
+        padding: 0 0.4rem;
+        color: #aaaaaa;
+    }
+
+    .star{
+        color: #fcb205;
+        padding-left: 0.5rem;
     }

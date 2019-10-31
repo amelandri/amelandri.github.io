@@ -36,26 +36,18 @@
       <div class="masthead">
         <div class="container">
           <h3 class="masthead-title">
-            <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>
+            <a href="{{ site.baseurl }}/" title="Home">{{ site.title }} <span class="star">&starf;</span></a> 
           </h3>
         </div>
-	<div class="container headmenu">
-		{% assign pages_list = site.pages | sort:"url" %}
-    {% for node in pages_list %}
-      {% if node.title != null %}
-        {% if node.layout == "page" %}
-           <a class="headmenu-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a> / 
-        {% endif %}
-      {% endif %}
-    {% endfor %}
-	</div>
       </div>
 
       <div class="container content">
+        
         {{ content }}
 
         <div class="contentfooter">
-	        &copy; 2009-{{ site.time | date: '%Y' }} Alessandro Melandri
+	        &copy; 2009-{{ site.time | date: '%Y' }} Alessandro Melandri.<br /><br />All site content, except where otherwise noted, is licensed under a  
+          <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons Attribution-Noncommercial-Share Alike 3.0 Unported License</a>.
         </div>
 
       </div>
