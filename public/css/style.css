@@ -9,6 +9,7 @@
 /* -------------- HTML & BODY -------------- */
 
 
+
 html,
 body {
     margin: 0;
@@ -34,6 +35,49 @@ body {
     background-color: #f9f9f9;
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
+}
+
+
+
+/* -------------- PAGE STRUCTURE -------------- */
+
+
+
+.container {
+    max-width: 42rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wrap {
+    position: relative;
+    width: 100%;
+}
+
+.container {
+    max-width: 28rem;
+}
+
+@media (min-width: 38em) {
+    .container {
+        max-width: 32rem;
+    }
+}
+
+@media (min-width: 56em) {
+    .container {
+        max-width: 42rem;
+    }
+}
+
+.contentfooter {
+    padding-bottom: 40px;
+    font-size: 0.8em;
+    color: #b5b5b5;
+    border-top: 1px solid #e3e3e3;
+    padding-top: 1rem;
 }
 
 
@@ -73,7 +117,6 @@ body {
 
 
 
-
 /* -------------- HOME PAGE -------------- */
 
 
@@ -82,7 +125,7 @@ body {
     font-size: 0.9rem;
     padding-bottom: 0.8rem;
     margin-bottom: 0.8rem;
-    border-bottom: 1px dotted #d1d1d1;
+    border-bottom: 1px solid #d1d1d1;
     
 }
 
@@ -180,8 +223,29 @@ h6 {
 
 
 
+/* -------------- GENERIC TEXT STYLES -------------- */
 
 
+
+a {
+    color: #268bd2;
+    text-decoration: none;
+}
+
+a:hover,
+a:focus {
+    text-decoration: underline;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    letter-spacing: 0.016 rem;
+}
+
+
+
+/* -------------- MOBILE STYLESHEET -------------- */
 
 
 
@@ -215,56 +279,92 @@ h6 {
 
 
 
+/* -------------- SINGLE POST AND PAGE -------------- */
 
 
 
+.post {
+    margin-bottom: 4em;
+}
 
+.page-title,
+.post-title {
+    color: #003333;
+    margin-top: 0;
+    font-weight: bold;
+}
 
+.page-title {
+    margin-bottom: 2em;
+}
 
+.post-date {
+    display: block;
+    margin-top: -.5rem;
+    margin-bottom: 2rem;
+    color: #cccccc;
+    font-size: 0.55rem;
+    letter-spacing: 0.04rem;
+    padding-top: 0.5rem;
+    text-transform: uppercase;
+}
 
+.postSource{
+    font-size: 0.8rem;
+    padding-top: 2em;
+}
+   
+.postTag {
+    display: inline-block;
+    background: #f2f2f2;
+    padding: 0 0.5rem;
+    border-radius: 4px;
+    font-family: "PT Sans", Helvetica, Arial, sans-serif;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+    font-size: 0.7rem;
+    padding: 0.1rem 0.5rem;
+    color: #a5a5a5;
+}
 
-/* ----------------------------------------   TO BE CLEANED  -----------------------------------------      */
-
-
-
-
-
-
-
-/* No `:visited` state is required by default (browsers will use `a`) */
-
-a {
-    color: #268bd2;
+.postTag:hover {
+    background: #268bd2;
+    color: #fff;
     text-decoration: none;
 }
 
+blockquote {
+    padding: .5rem 1rem;
+    margin: .8rem 0;
+    color: #7a7a7a;
+    border-left: .25rem solid #e5e5e5;
+}
 
-/* `:focus` is linked to `:hover` for basic accessibility */
+blockquote p:last-child {
+    margin-bottom: 0;
+}
 
-a:hover,
-a:focus {
-    text-decoration: underline;
+@media (min-width: 30em) {
+    blockquote {
+        padding-right: 5rem;
+        padding-left: 1.25rem;
+    }
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    margin: 0 0 1rem;
+    border-radius: 5px;
 }
 
 
 
 
+/* -------------- SOURCE CODE DISPLAY -------------- */
 
 
-
-p {
-    margin-top: 0;
-    margin-bottom: 1rem;
-}
-
-
-/* Lists */
-
-
-/* Misc */
-
-
-/* Code */
 
 code,
 pre {
@@ -314,254 +414,3 @@ pre code {
 .highlight pre {
     margin-bottom: 0;
 }
-
-
-/* Gist via GitHub Pages */
-
-
-/* Quotes */
-
-blockquote {
-    padding: .5rem 1rem;
-    margin: .8rem 0;
-    color: #7a7a7a;
-    border-left: .25rem solid #e5e5e5;
-}
-
-blockquote p:last-child {
-    margin-bottom: 0;
-}
-
-@media (min-width: 30em) {
-    blockquote {
-        padding-right: 5rem;
-        padding-left: 1.25rem;
-    }
-}
-
-img {
-    display: block;
-    max-width: 100%;
-    margin: 0 0 1rem;
-    border-radius: 5px;
-}
-
-
-/* Tables */
-
-.container {
-    max-width: 42rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-
-
-
-
-/*
-* Posts and pages
-*
-* Each post is wrapped in `.post` and is used on default and post layouts. Each
-* page is wrapped in `.page` and is only used on the page layout.
-*/
-
-.post {
-    margin-bottom: 4em;
-}
-
-
-/* Blog post or page title */
-
-.post-title,
-.post-title a {
-    color: #303030;
-}
-
-.post-title {
-    margin-top: 0;
-}
-
-
-/* Meta data line below post title */
-
-.post-date {
-    display: block;
-    margin-top: -.5rem;
-    margin-bottom: 1rem;
-    color: #9a9a9a;
-}
-
-
-
-
-
-
-
-   
-
-
-    .wrap {
-        position: relative;
-        width: 100%;
-    }
-
-    .container {
-        max-width: 28rem;
-    }
-    @media (min-width: 38em) {
-        .container {
-            max-width: 32rem;
-        }
-    }
-    @media (min-width: 56em) {
-        .container {
-            max-width: 42rem;
-        }
-    }
-
-
-    
-  
-    /*.page,*/
-    .post {
-        margin-bottom: 4em;
-    }
-    /* Blog post or page title */
-    .post-title,
-    .post-title a {
-        color: #003333;
-    }
-    .Photo .post-title {
-        display: none;
-    }
-    .post-title a:hover {
-        text-decoration: none;
-        border-bottom: 1px dotted;
-    }
-    /*.external-url a {
-        font-weight: normal;
-        opacity: 0.9;
-        font-style: italic;
-        font-size: 1.1rem;
-    }*/
-    .post-title {
-        margin-top: 0;
-        font-weight: bold;
-    }
-    /* Meta data line below post title */
-    .post-date {
-        display: block;
-        margin-top: -.5rem;
-        margin-bottom: 2rem;
-        color: #cccccc;
-        font-size: 0.55rem;
-        letter-spacing: 0.04rem;
-        padding-top: 0.5rem;
-        font-family: 'Open Sans', Arial, Helvetica, sans-serif;
-        text-transform: uppercase;
-    }
-    .Photo .post-date {
-        margin-bottom: 1rem;
-    }
-
-    .contentfooter {
-        padding-bottom: 40px;
-        font-size: 0.8em;
-        color: #b5b5b5;
-        border-top: 1px solid #e3e3e3;
-        padding-top: 1rem;
-    }
-    .headmenu {
-        font-size: 0.8rem;
-        margin-top: 0.5rem;
-        color: #9d9d9d;
-    }
-    .headmenu-item {
-        color: #0645ad;
-        text-transform: lowercase;
-    }
-    p {
-        letter-spacing: 0.016 rem;
-    }
-
-    .page-title,
-    .post-title,
-    .post-title a {
-        color: #303030;
-    }
-    .page-title,
-    .post-title {
-        margin-top: 0;
-    }
-    /* Blog post or page title */
-    .page-title,
-    .post-title,
-    .post-title a {
-        color: #003333;
-    }
-    .page-title,
-    .post-title {
-        margin-top: 0;
-        font-weight: bold;
-    }
-    .page-title {
-        margin-bottom: 2em;
-    }
-
-    /* Headings */
-   
-    .contentfooter {
-        padding-bottom: 40px;
-        font-size: 0.8em;
-        color: #b5b5b5;
-        border-top: 1px solid #e3e3e3;
-        padding-top: 1rem;
-    }
-    .postTag {
-        display: inline-block;
-        background: #f2f2f2;
-        padding: 0 0.5rem;
-        border-radius: 4px;
-        font-family: "PT Sans", Helvetica, Arial, sans-serif;
-        -webkit-transition: all 0.1s ease-in-out;
-        -moz-transition: all 0.1s ease-in-out;
-        transition: all 0.1s ease-in-out;
-        font-size: 0.7rem;
-        padding: 0.1rem 0.5rem;
-        color: #a5a5a5;
-    }
-    .postTag:hover {
-        background: #268bd2;
-        color: #fff;
-        text-decoration: none;
-    }
-    .postCategory {
-        padding-right: 1rem;
-    }
-    .archiveHeader {
-        margin-bottom: 3rem;
-    }
-    .headmenu {
-        font-size: 0.8rem;
-        margin-top: 0.5rem;
-        color: #9d9d9d;
-    }
-    .headmenu-item {
-        color: #0645ad;
-        text-transform: lowercase;
-    }
-    .headmenu .active {
-        color: #73818f;
-    }
-    p {
-        letter-spacing: 0.016 rem;
-    }
-    .flag {
-        float: right;
-        margin-top: 8px;
-    }
-
-   
