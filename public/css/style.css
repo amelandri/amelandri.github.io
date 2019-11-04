@@ -108,7 +108,7 @@ body {
 .masthead-title a {
     background: #323232;
     color: #FFFFFF;
-    padding: 0.2rem 0.4rem;
+    padding: 0.2rem 0.7rem 0.2rem 0.8rem;
 }
 
 .masthead-title a:hover {
@@ -156,7 +156,7 @@ body {
 
 .star{
     color: #fcb205;
-    padding-left: 0.5rem;
+    padding-left: 0.35rem;
 }
 
 .starlist{
@@ -385,7 +385,7 @@ pre {
     white-space: pre-wrap;
     word-break: break-all;
     word-wrap: break-word;
-    background-color: #f6f6f6;
+    background-color: #e8e8e8;
     border-radius: 4px;
 }
 
