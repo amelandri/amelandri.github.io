@@ -185,6 +185,36 @@ h6 {
 
 
 
+@media only screen 
+  and (max-device-width: 736px) { 
+
+    .masthead{
+        padding-top: 1.25em;
+        padding-bottom: 1em;
+        margin-bottom: 0.5rem;   
+    }
+
+    .masthead-title{
+        font-size: 1.5rem;
+    }
+
+    .homeintro{
+        padding-bottom: 0;
+    }
+
+    .homelistdate, .homelistsep{
+        display: none;
+    }
+
+    .homelistitem{
+        padding: 0.5rem 0;
+        font-size: 0.8rem;
+    }
+
+}
+
+
+
 
 
 
