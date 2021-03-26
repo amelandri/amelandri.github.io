@@ -10,7 +10,7 @@ title: Home
 <div class="homelist">
 	{% for post in site.posts %}
 		<div class="homelistitem {{post.category}} {% if post.external-url != nil %}external-url{% endif %}">
-		  <span class="homelistdate">{{ post.date | date: "%d %b %Y" }}</span><span class="homelistsep">|</span><a href="{{ post.url }}"><span class="postTitle">{{ post.title }}</span></a> {% if post.external-url == nil %}<span class="starlist">&starf;</span>{% endif %}
+		  <span class="homelistdate">{{ post.date | date: "%d %b %Y" }}</span><span class="homelistsep">&bull;</span><a href="{{ post.url }}"><span class="postTitle">{{ post.title }}</span></a> {% if post.external-url == nil %}<span class="starlist">&starf;</span>{% endif %}
 		</div>
 	{% endfor %}
 </div>

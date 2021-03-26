@@ -135,23 +135,24 @@ body {
 }
 
 .homelistitem{
-    padding: 0.1rem 0
+    padding: 0.2rem 0
 }
 
 .homelistitem a{
-    color: #222222;
+    color: #1d1e20;
     letter-spacing: 0.016rem;
 }
 
 .homelistdate{
-    font-family: courier, monospace;
-    color: #666666;
+    font-family: consolas, courier, monospace;
+    color: #7c97aa;
     font-size: 0.75rem;
+    text-transform: uppercase;
 }
 
 .homelistsep{
     padding: 0 0.5rem;
-    color: #aaaaaa;
+    color: #cac9c9;
 }
 
 .star{
