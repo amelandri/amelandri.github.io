@@ -10,15 +10,15 @@
 
   <body>
     <article>
-      <h1 id="tufte-css">Alessandro Melandri</h1>
-      <p class="subtitle">IT Technical Project Manager</p>
+      <h1 id="tufte-css">Alessandro Melandri </h1>
+      <p class="subtitle">{{ page.title }} </p>
+      
       <section>
-        <p>
-          Ciao! Sono un IT Project Manager, ex IBM WebSphere Commerce specialist, aspirante fotografo e strimpellatore di chitarra.
-        </p>
-        <p>
-          Mi puoi trovare su <a rel="me" href="https://mastodon.uno/@alemelandri">Mastodon</a>, <a href="https://twitter.com/alemelandri">Twitter</a>, <a href="https://github.com/amelandri">Github</a> e <a href="https://www.linkedin.com/in/alessandromelandri/">Linkedin</a>
-        </p>
+        {{ page.date | date_to_long_string }} - <a href="/">home page</a>
+      </section>
+
+      <section>
+        {{ page.content }}
       </section>
       <section>
         Questa pagina non contiente trackers. &Egrave; ospitata su Github ed &egrave; stata costruita usando <a href="https://github.com/edwardtufte/tufte-css">Tufte css</a>
