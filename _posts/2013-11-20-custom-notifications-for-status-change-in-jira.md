@@ -48,7 +48,7 @@ Choose the notification scheme associated with the project, click on **Notificat
 
 ![screenshot](/postimg/2013-11/jira-custom-notification-4.png)
 
-In the detail screen just choose who will receive the notification and click the **Add** button
+In the detail screen just choose who will receive the notification and click the **Add** button:
 
 ![screenshot](/postimg/2013-11/jira-custom-notification-5.png)
 
