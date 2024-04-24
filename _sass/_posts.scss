@@ -22,6 +22,7 @@
 .page-title,
 .post-title {
   margin-top: 0;
+  margin-bottom: 1rem;
 }
 .post-title a {
   color: inherit;
@@ -37,8 +38,9 @@
 .post-date {
   display: block;
   margin-top: -.5rem;
-  margin-bottom: var(--spacer);
-  color: var(--gray-600);
+  margin-bottom: 0;
+  color: #b1b0b0;
+  font-size: 0.85rem;
 }
 
 
