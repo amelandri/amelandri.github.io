@@ -1,10 +1,11 @@
 # Setup
-title: Poole
-tagline: The Jekyll Butler
+title: Alessandro Melandri
+tagline: IT Project Manager, strimpello la chitarra, fotografo particolari insignificanti, studio la Lingua dei Segni Italiana.<br /><br />Tech posts in English, everything else in Italian.
 url: https://getpoole.com
-paginate: 1
+paginate: 10
 baseurl: ""
 permalink: pretty
+excerpt_separator: <!--more-->
 
 # Gems
 plugins:
