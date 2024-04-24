@@ -1,10 +1,10 @@
 # Setup
 title: Alessandro Melandri
-tagline: IT Project Manager, strimpello la chitarra, fotografo particolari insignificanti, studio la Lingua dei Segni Italiana.<br /><br />Tech posts in English, everything else in Italian.
+tagline: IT Project Manager, strimpello la chitarra, fotografo particolari insignificanti, studio la Lingua dei Segni Italiana. Tech posts are in English, everything else in Italian.
 url: https://getpoole.com
 paginate: 10
 baseurl: ""
-permalink: pretty
+permalink: :title
 excerpt_separator: <!--more-->
 
 # Gems
