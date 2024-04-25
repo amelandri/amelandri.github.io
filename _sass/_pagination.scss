@@ -11,6 +11,7 @@
 }
 
 // Pagination items can be `span`s or `a`s
+/*
 .pagination-item {
   display: block;
   padding: 0.5rem;
@@ -20,6 +21,23 @@
 
   &:first-child {
     margin-bottom: -1px;
+  }
+}*/
+
+.pagination-item {
+  float: left;
+  width: 50%;
+  border-width: 1px;
+
+  &:first-child {
+    margin-bottom: 0;
+    border-top-left-radius: var(--border-radius);
+    border-bottom-left-radius: var(--border-radius);
+  }
+  &:last-child {
+    margin-left: -1px;
+    border-top-right-radius: var(--border-radius);
+    border-bottom-right-radius: var(--border-radius);
   }
 }
 
