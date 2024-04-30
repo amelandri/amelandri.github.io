@@ -6,7 +6,7 @@ class: archive
 
 # Archive
 
-## Post Archive
+## Posts Archive
 
 {% assign posts = site.posts |  where_exp:"post", "post.category != microblog" %}
 
@@ -16,22 +16,15 @@ class: archive
   {% endfor %}
 </ul>
 
-
 ## Microblog Archive
 
 {% assign posts = site.posts |  where_exp:"post", "post.category == microblog"%}
 
-  {% for post in posts %}
+{% for post in posts %}
 
   <article class="post {% for category in post.categories %} {{ category }}{% endfor %}">
     <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_string }}</time>
-    
-    {% if post.content contains site.excerpt_separator %}
-      {{ post.excerpt }}
-      <a href="{{ post.url }}">Read more &raquo;</a>
-    {% else %}
-      {{ post.content }}
-    {% endif %}
+    {{ post.content }}
   </article>
 
-  {% endfor %}
+{% endfor %}
