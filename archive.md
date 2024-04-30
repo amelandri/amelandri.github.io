@@ -10,9 +10,9 @@ class: archive
 
 {% assign posts = site.posts |  where_exp:"post", "post.category != microblog" %}
 
-<ul>
+<ul class="archivelist">
   {% for post in posts %}
-   <li><a href="{{ post.url }}">{{ post.title }}</a> - {{ post.date | date: "%-d %B %Y"}} </li>
+   <li><a href="{{ post.url }}">{{ post.title }}</a><span class="archivedate">{{ post.date | date: "%-d %B %Y"}}</span></li>
   {% endfor %}
 </ul>
 
@@ -20,8 +20,18 @@ class: archive
 ## Microblog Archive
 
 {% assign posts = site.posts |  where_exp:"post", "post.category == microblog"%}
-<ul>
+
   {% for post in posts %}
-   <li><strong>{{ post.date | date: "%-d %B %Y" }}</strong>{{ post.content }}</li>
+
+  <article class="post {% for category in post.categories %} {{ category }}{% endfor %}">
+    <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_string }}</time>
+    
+    {% if post.content contains site.excerpt_separator %}
+      {{ post.excerpt }}
+      <a href="{{ post.url }}">Read more &raquo;</a>
+    {% else %}
+      {{ post.content }}
+    {% endif %}
+  </article>
+
   {% endfor %}
-</ul>
