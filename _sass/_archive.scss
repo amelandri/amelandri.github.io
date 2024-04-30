@@ -1,0 +1,22 @@
+
+body.archive h2{
+margin: 2em 0;
+}
+
+body.archive article.microblog{
+margin-bottom: 1em !important;
+}
+
+.archivelist{
+	padding-left: 1.5rem;
+}
+
+.archivelist li{
+padding: 0.1em 0;
+}
+
+.archivedate{
+color: var(--gray-500);
+margin-left: 1em;
+font-size: 0.87rem;
+}

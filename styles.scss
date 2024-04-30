@@ -28,6 +28,7 @@
 @import "pagination";
 @import "message";
 @import "toc";
+@import "archive";
 
 // Sass for creating the swatches
 .colors {
@@ -44,46 +45,4 @@
   dd {
     margin-left: var(--spacer);
   }
-}
-
-
-.microblog{
-
-  background-color: var(--gray-100);
-  padding: 1.5rem 1rem 0.5rem 1rem;
-  border-radius: 0.5rem;
-
-  .post-title{
-    display:none;
-  }
-
-  .post-date{
-    font-size: 0.8rem;
-    color: #e19a1e;
-    padding-bottom: 0.4rem;
-  }
-
-}
-
-@media (prefers-color-scheme: dark) {
-
-  .microblog{
-    background-color: var(--gray-700);
-  }
-}
-
-.picture{
-
-  .post-title{
-    display:none;
-  }
-
-  .post-date{
-    margin-bottom: 1rem;
-  }
-
-}
-
-body.archive h2{
-  margin: 2em 0;
 }
