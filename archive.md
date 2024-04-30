@@ -6,12 +6,22 @@ class: archive
 
 # Archive
 
-{% assign postsByYear = site.posts | group_by_exp: "post", "post.date | date: '%Y'" %}
-{% for year in postsByYear %}
-  <h3>{{ year.name }}</h3>
-  <ul>
-    {% for post in year.items %}
-      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
-{% endfor %}
+## Post Archive
+
+{% assign posts = site.posts |  where_exp:"post", "post.category != microblog" %}
+
+<ul>
+  {% for post in posts %}
+   <li><a href="{{ post.url }}">{{ post.title }}</a> - {{ post.date | date: "%-d %B %Y"}} </li>
+  {% endfor %}
+</ul>
+
+
+## Microblog Archive
+
+{% assign posts = site.posts |  where_exp:"post", "post.category == microblog"%}
+<ul>
+  {% for post in posts %}
+   <li><strong>{{ post.date | date: "%-d %B %Y" }}</strong>{{ post.content }}</li>
+  {% endfor %}
+</ul>
