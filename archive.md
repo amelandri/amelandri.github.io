@@ -18,13 +18,10 @@ class: archive
 
 ## Microblog Archive
 
-{% assign posts = site.posts |  where_exp:"post", "post.category == microblog"%}
-
-{% for post in posts %}
-
+{% for post in site.categories.microblog %}
   <article class="post {% for category in post.categories %} {{ category }}{% endfor %}">
     <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_string }}</time>
     {{ post.content }}
   </article>
-
 {% endfor %}
+
