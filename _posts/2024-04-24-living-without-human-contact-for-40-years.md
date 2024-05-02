@@ -2,7 +2,7 @@
 layout: post
 title: "Living without human contact for 40 years"
 date: 2024-04-24
-categories: [microblog]
+categories: microblog
 ---
 
 Articolo un po' datato, ma l'incredibile storia della famiglia russa che ha vissuto per quarant'anni senza contatti, ignorando perfino la seconda guerra mondiale, è sempre interessantissimo.
