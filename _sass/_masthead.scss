@@ -28,16 +28,37 @@
   text-decoration: none;
 }
 
-.menu a{
-  text-decoration: none;
-  border: 1px solid;
-  padding: 0.3rem 0.6rem;
-  border-radius: 0.4rem;
-  margin-right: 0.5rem;
+.menu_left{
+  float: left;
+
+  a{
+    text-decoration: none;
+    border: 1px solid;
+    padding: 0.3rem 0.6rem;
+    border-radius: 0.4rem;
+    margin-right: 0.5rem;
+  }
+
 }
 
-.menuright{
+.menu_right{
   float: right;
-  border-width: 0 !important;
-  color: #585858;
+
+  font-size: 0.8rem;
+
+  @media (min-width: 30em) {
+    font-size: var(--body-font-size);
+  }
+
+  a{
+    border-width: 0 !important;
+    color: var(--gray-600);
+    text-decoration: none;
+    padding-left: 0.5rem;
+  }
+
+  a:first-child{
+    padding-left: 0;
+  }
+
 }
