@@ -29,7 +29,8 @@
 }
 
 .menu_left{
-  float: left;
+
+  display: block;
 
   a{
     text-decoration: none;
@@ -42,13 +43,11 @@
 }
 
 .menu_right{
-  float: right;
 
+  display: block;
   font-size: 0.8rem;
 
-  @media (min-width: 30em) {
-    font-size: var(--body-font-size);
-  }
+  margin-top: 1rem;
 
   a{
     border-width: 0 !important;
@@ -61,4 +60,19 @@
     padding-left: 0;
   }
 
+}
+
+@media (min-width: 30em) {
+
+  .menu_left{
+    float: left;
+  }
+
+  .menu_right{
+    margin-top: 0;
+    float: right;
+    font-size: var(--body-font-size);
+  }
+
+ 
 }
