@@ -38,12 +38,9 @@
   }
 }
 
-body.archive h1, body.photo h1 {
+.page h1{
   border-bottom: 1px solid #e1e1e1;
   padding-bottom: 0.3em;
-}
-
-body.photo h1{
   margin-bottom: 2em;
 }
 
@@ -55,7 +52,6 @@ body.photo h1{
   color: #b1b0b0;
   font-size: 0.85rem;
 }
-
 
 // Related posts
 .related {

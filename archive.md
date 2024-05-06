@@ -1,10 +1,8 @@
 ---
-layout: default
+layout: page
 title: Archive
 class: archive
 ---
-
-# Archive
 
 ## Posts Archive
 

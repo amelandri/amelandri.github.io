@@ -1,10 +1,8 @@
 ---
-layout: default
-title: Photo
+layout: page
+title: Photography
 class: photo
 ---
-
-# Photography
 
 {% for post in site.categories.photo %}
   <article class="post {% for category in post.categories %} {{ category }}{% endfor %}">
