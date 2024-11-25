@@ -1,0 +1,23 @@
+.fira-code {
+	font-family: "Fira Code", serif;
+	font-optical-sizing: auto;
+	font-weight: normal;
+	font-style: normal;
+}
+
+body{
+	font-size: 0.9rem;
+	margin: 0;
+	padding: 0;
+}
+
+.container{
+	width: 600px;
+	margin: 50px auto 0 auto;
+}
+
+header{
+	font-size: 1.2rem;
+	padding-bottom: 1rem;
+	border-bottom: 1px solid #e6e6e6;
+}
